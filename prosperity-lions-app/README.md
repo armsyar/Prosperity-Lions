@@ -50,16 +50,27 @@ it's planned to live inside `apps/web` once art/audio production starts.
   venues, fortunes and hongbao (`apps/api/src/routes/chat.ts`)
 - ✅ In-memory data for lions, venues, one example promotion, and placeholder
   fortunes/prizes
+- ✅ **Storybook-style quiz UI** — one illustrated scene per question, a
+  page-turn card, progress dots, and a result page with the matched lion's
+  portrait (`apps/web/src/app/quiz/page.tsx`)
+- ✅ Chat UI shows the matched lion's portrait in the header, with the
+  default quick-reply chips from `docs/chat-conversation-flow.md`
+  (`apps/web/src/app/chat/page.tsx`)
+- ✅ **Placeholder character art** — 5 lion portraits (`apps/web/public/lions/`)
+  and 8 quiz scene illustrations (`apps/web/public/scenes/`), all original
+  SVG, drawn as stand-ins until real illustrations are ready. Swap by
+  replacing the same filenames; nothing else needs to change.
 - ❌ No database — guest state resets on server restart
   (`apps/api/src/data/store.ts` is explicitly a placeholder)
 - ❌ No admin panel to edit promos
 - ❌ No lion-dance game
 - ❌ No QR check-in flow
-- ❌ Minimal, unstyled UI — functional, not designed
 - ❌ Safety/distress copy is a placeholder — **do not launch without a real,
   legally-reviewed support message** (see `packages/shared/src/systemPrompt.ts`)
 - ❌ Hongbao prize odds/inventory in `apps/api/src/routes/hongbao.ts` are
   invented placeholders, not real numbers
+- ⚠️ Not yet run through a live `npm install`/build in this repo's own CI —
+  verify with `npm install` locally before relying on it
 
 ## Getting started
 
@@ -86,6 +97,16 @@ pay-as-you-go and is **separate from any claude.ai or Claude Code
 subscription**. Get a key from the Claude Console. Keep this production key
 out of whatever environment you use for *coding* the app with Claude Code, so
 billing doesn't mix (see `docs/technical-build-plan.md` Section 8).
+
+## Replacing the placeholder art
+
+`apps/web/public/lions/*.svg` (5 files) and `apps/web/public/scenes/*.svg`
+(8 files) are original placeholder illustrations, not final character art.
+To swap in real art, replace the file at the same path and filename (e.g.
+`lions/hong_hong.svg`) — the app references them by path, so nothing else
+needs to change. PNG/JPG/WebP work too; just update the `src` extension in
+`apps/web/src/app/quiz/page.tsx`, `chat/page.tsx` and `page.tsx` if you
+switch formats.
 
 ## Next steps
 

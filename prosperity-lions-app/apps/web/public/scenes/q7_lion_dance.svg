@@ -1,0 +1,67 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A lion dance performance with drums">
+  <defs>
+    <radialGradient id="q7-bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#FFE1C4"/>
+      <stop offset="100%" stop-color="#FF9E6B"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#q7-bg)"/>
+
+  <!-- confetti burst -->
+  <g fill="#FFC64A">
+    <circle cx="120" cy="90" r="7"/>
+    <circle cx="680" cy="80" r="6"/>
+    <circle cx="720" cy="180" r="5"/>
+    <circle cx="90" cy="200" r="5"/>
+    <path d="M600 130 l6 14 l14 6 l-14 6 l-6 14 l-6 -14 l-14 -6 l14 -6 z"/>
+    <path d="M150 150 l5 11 l11 5 l-11 5 l-5 11 l-5 -11 l-11 -5 l11 -5 z"/>
+  </g>
+
+  <!-- ground -->
+  <rect y="420" width="800" height="80" fill="#B5241D"/>
+
+  <!-- lion body / cloth -->
+  <path d="M340 480 q60 -60 120 0 l0 -80 q-60 -30 -120 0 z" fill="#E63B2E"/>
+  <path d="M340 480 q60 -30 120 0" stroke="#FFC64A" stroke-width="6" fill="none"/>
+
+  <!-- big performing lion head, mid-leap pose -->
+  <g transform="translate(400 250)">
+    <!-- mane -->
+    <g fill="#B5241D">
+      <circle cx="-110" cy="10" r="58"/>
+      <circle cx="110" cy="10" r="58"/>
+      <circle cx="-70" cy="-90" r="50"/>
+      <circle cx="70" cy="-90" r="50"/>
+      <circle cx="0" cy="-118" r="55"/>
+    </g>
+    <!-- ears -->
+    <circle cx="-95" cy="-55" r="30" fill="#E63B2E"/>
+    <circle cx="95" cy="-55" r="30" fill="#E63B2E"/>
+    <circle cx="-95" cy="-55" r="14" fill="#FFC64A"/>
+    <circle cx="95" cy="-55" r="14" fill="#FFC64A"/>
+    <!-- face -->
+    <circle cx="0" cy="10" r="140" fill="#E63B2E"/>
+    <!-- horn -->
+    <path d="M-22 -100 q22 -38 44 0 q-6 28 -22 32 q-16 -4 -22 -32z" fill="#FFC64A"/>
+    <circle cx="0" cy="-112" r="9" fill="#FF7A3D"/>
+    <!-- brows -->
+    <path d="M-90 -34 q34 -26 70 -6" stroke="#5C1410" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <path d="M90 -34 q-34 -26 -70 -6" stroke="#5C1410" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <!-- big round eyes -->
+    <circle cx="-55" cy="6" r="32" fill="#FFFFFF"/>
+    <circle cx="55" cy="6" r="32" fill="#FFFFFF"/>
+    <circle cx="-48" cy="12" r="16" fill="#3A2115"/>
+    <circle cx="62" cy="12" r="16" fill="#3A2115"/>
+    <!-- huge open mouth -->
+    <path d="M-90 60 q90 90 180 0 q-14 76 -90 76 q-76 0 -90 -76z" fill="#5C1410"/>
+    <path d="M-64 76 q64 56 128 0 q-10 40 -64 40 q-54 0 -64 -40z" fill="#FF8F7A"/>
+  </g>
+
+  <!-- drum -->
+  <g transform="translate(640 380)">
+    <ellipse cx="0" cy="0" rx="60" ry="20" fill="#B5241D"/>
+    <rect x="-60" y="-40" width="120" height="40" fill="#E63B2E"/>
+    <ellipse cx="0" cy="-40" rx="60" ry="20" fill="#FFECC8"/>
+    <path d="M-60 -20 L60 -20" stroke="#5C1410" stroke-width="4"/>
+  </g>
+</svg>

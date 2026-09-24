@@ -1,0 +1,65 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rui Rui, the Blessing Lion">
+  <defs>
+    <radialGradient id="rr-bg" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#FFF6D9"/>
+      <stop offset="100%" stop-color="#FFECAD"/>
+    </radialGradient>
+  </defs>
+  <circle cx="200" cy="200" r="196" fill="url(#rr-bg)"/>
+
+  <g fill="#E8A628">
+    <circle cx="120" cy="330" r="38"/>
+    <circle cx="165" cy="352" r="38"/>
+    <circle cx="210" cy="360" r="38"/>
+    <circle cx="255" cy="352" r="38"/>
+    <circle cx="300" cy="330" r="38"/>
+  </g>
+  <g fill="#E63B2E">
+    <circle cx="120" cy="330" r="16"/>
+    <circle cx="165" cy="352" r="16"/>
+    <circle cx="210" cy="360" r="16"/>
+    <circle cx="255" cy="352" r="16"/>
+    <circle cx="300" cy="330" r="16"/>
+  </g>
+
+  <g fill="#E8A628">
+    <circle cx="78" cy="205" r="58"/>
+    <circle cx="322" cy="205" r="58"/>
+    <circle cx="112" cy="110" r="50"/>
+    <circle cx="288" cy="110" r="50"/>
+    <circle cx="200" cy="82" r="52"/>
+  </g>
+
+  <circle cx="118" cy="140" r="34" fill="#FFC93C"/>
+  <circle cx="282" cy="140" r="34" fill="#FFC93C"/>
+  <circle cx="118" cy="140" r="16" fill="#E63B2E"/>
+  <circle cx="282" cy="140" r="16" fill="#E63B2E"/>
+
+  <circle cx="200" cy="210" r="128" fill="#FFC93C"/>
+
+  <path d="M180 100 q20 -34 40 0 q-6 26 -20 30 q-14 -4 -20 -30 z" fill="#E63B2E"/>
+  <circle cx="200" cy="98" r="7" fill="#FFF3C4"/>
+
+  <!-- brows: cheeky, one raised -->
+  <path d="M126 182 q30 -10 62 2" stroke="#6E4A12" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M274 168 q-30 -18 -62 -2" stroke="#6E4A12" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+  <!-- eyes: one winking -->
+  <path d="M138 208 q20 -18 40 0" stroke="#3A2115" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <ellipse cx="242" cy="206" rx="26" ry="30" fill="#FFFFFF"/>
+  <circle cx="248" cy="212" r="14" fill="#3A2115"/>
+  <circle cx="253" cy="204" r="4" fill="#FFFFFF"/>
+
+  <circle cx="132" cy="248" r="17" fill="#E63B2E" opacity="0.5"/>
+  <circle cx="268" cy="248" r="17" fill="#E63B2E" opacity="0.5"/>
+
+  <ellipse cx="200" cy="238" rx="16" ry="11" fill="#6E4A12"/>
+
+  <!-- cheeky open grin, slightly asymmetric -->
+  <path d="M150 258 q50 42 100 -4 q-4 42 -50 42 q-46 0 -50 -38 z" fill="#6E4A12"/>
+  <path d="M164 264 q36 24 74 -2 q-6 20 -36 20 q-30 0 -38 -18 z" fill="#FF8F7A"/>
+
+  <!-- lucky ingot accent -->
+  <path d="M296 300 q22 -6 26 12 q2 14 -18 16 q-18 2 -22 -10 q-2 -12 14 -18z" fill="#FFD766" stroke="#E8A628" stroke-width="3"/>
+  <path d="M300 308 q10 -4 12 6" stroke="#E8A628" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

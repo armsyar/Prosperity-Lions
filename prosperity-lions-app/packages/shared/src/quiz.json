@@ -16,6 +16,7 @@
     {
       "id": "q1",
       "title": "The Reunion Dinner",
+      "image": "/scenes/q1_reunion_dinner.svg",
       "prompt": "You arrive at the host's home for the reunion dinner. The house is packed and noisy. What do you do first?",
       "options": [
         { "text": "Greet everyone loudly and start organising who sits where", "main": "hong_hong", "secondary": "xing_xing" },
@@ -28,6 +29,7 @@
     {
       "id": "q2",
       "title": "The Hongbao",
+      "image": "/scenes/q2_hongbao.svg",
       "prompt": "Someone hands you a red packet. What's your move?",
       "options": [
         { "text": "Open it right away, no suspense needed", "main": "hong_hong", "secondary": "rui_rui" },
@@ -40,6 +42,7 @@
     {
       "id": "q3",
       "title": "The Prosperity Toss",
+      "image": "/scenes/q3_yusheng_toss.svg",
       "prompt": "The whole table stands up for the yusheng toss. How do you join in?",
       "options": [
         { "text": "Toss it the highest and shout the loudest wish", "main": "hong_hong", "secondary": "xing_xing" },
@@ -52,6 +55,7 @@
     {
       "id": "q4",
       "title": "House Visiting",
+      "image": "/scenes/q4_house_visiting.svg",
       "prompt": "You're on your fifth house visit of the day. How do you handle it?",
       "options": [
         { "text": "Lead the plan: 'Team, three more houses before dinner!'", "main": "hong_hong", "secondary": "rui_rui" },
@@ -64,6 +68,7 @@
     {
       "id": "q5",
       "title": "The Festive Street Market",
+      "image": "/scenes/q5_street_market.svg",
       "prompt": "You're walking through the festive lights. What pulls you in first?",
       "options": [
         { "text": "The biggest, loudest attraction, front row please", "main": "hong_hong", "secondary": "xing_xing" },
@@ -76,6 +81,7 @@
     {
       "id": "q6",
       "title": "The Snack Table",
+      "image": "/scenes/q6_snack_table.svg",
       "prompt": "You reach the CNY snack table. What's your style?",
       "options": [
         { "text": "Grab a handful of favourites, decisive and fast", "main": "hong_hong", "secondary": "rui_rui" },
@@ -88,6 +94,7 @@
     {
       "id": "q7",
       "title": "The Lion Dance",
+      "image": "/scenes/q7_lion_dance.svg",
       "prompt": "The lion dance troupe arrives! Drums pound and cymbals crash. Where are you?",
       "options": [
         { "text": "Right at the front, ready to jump in", "main": "hong_hong", "secondary": "xing_xing" },
@@ -100,6 +107,7 @@
     {
       "id": "q8",
       "title": "The New Year Wish",
+      "image": "/scenes/q8_new_year_wish.svg",
       "prompt": "It's the start of a brand-new year. What are you wishing for?",
       "options": [
         { "text": "To finally do the big, scary thing I've been putting off", "main": "hong_hong", "secondary": "rui_rui" },

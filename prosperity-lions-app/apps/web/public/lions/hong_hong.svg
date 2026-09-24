@@ -1,0 +1,74 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hong Hong, the Bold Lion">
+  <defs>
+    <radialGradient id="hh-bg" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#FFE7DA"/>
+      <stop offset="100%" stop-color="#FFD2BE"/>
+    </radialGradient>
+  </defs>
+  <circle cx="200" cy="200" r="196" fill="url(#hh-bg)"/>
+
+  <!-- collar / ruff -->
+  <g fill="#B5241D">
+    <circle cx="120" cy="330" r="38"/>
+    <circle cx="165" cy="352" r="38"/>
+    <circle cx="210" cy="360" r="38"/>
+    <circle cx="255" cy="352" r="38"/>
+    <circle cx="300" cy="330" r="38"/>
+  </g>
+  <g fill="#FFC64A">
+    <circle cx="120" cy="330" r="16"/>
+    <circle cx="165" cy="352" r="16"/>
+    <circle cx="210" cy="360" r="16"/>
+    <circle cx="255" cy="352" r="16"/>
+    <circle cx="300" cy="330" r="16"/>
+  </g>
+
+  <!-- mane puffs -->
+  <g fill="#B5241D">
+    <circle cx="78" cy="205" r="58"/>
+    <circle cx="322" cy="205" r="58"/>
+    <circle cx="112" cy="110" r="50"/>
+    <circle cx="288" cy="110" r="50"/>
+    <circle cx="200" cy="82" r="52"/>
+  </g>
+
+  <!-- ears -->
+  <circle cx="118" cy="140" r="34" fill="#E63B2E"/>
+  <circle cx="282" cy="140" r="34" fill="#E63B2E"/>
+  <circle cx="118" cy="140" r="16" fill="#FFC64A"/>
+  <circle cx="282" cy="140" r="16" fill="#FFC64A"/>
+
+  <!-- face -->
+  <circle cx="200" cy="210" r="128" fill="#E63B2E"/>
+
+  <!-- forehead horn -->
+  <path d="M180 100 q20 -34 40 0 q-6 26 -20 30 q-14 -4 -20 -30 z" fill="#FFC64A"/>
+  <circle cx="200" cy="98" r="7" fill="#FF7A3D"/>
+
+  <!-- brows: determined, angled down = bold -->
+  <path d="M126 176 q30 -22 62 -6" stroke="#5C1410" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M274 176 q-30 -22 -62 -6" stroke="#5C1410" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+  <!-- eyes -->
+  <ellipse cx="158" cy="206" rx="26" ry="30" fill="#FFFFFF"/>
+  <ellipse cx="242" cy="206" rx="26" ry="30" fill="#FFFFFF"/>
+  <circle cx="163" cy="212" r="14" fill="#3A2115"/>
+  <circle cx="237" cy="212" r="14" fill="#3A2115"/>
+  <circle cx="168" cy="204" r="4" fill="#FFFFFF"/>
+  <circle cx="242" cy="204" r="4" fill="#FFFFFF"/>
+
+  <!-- cheeks -->
+  <circle cx="132" cy="248" r="16" fill="#FF7A3D" opacity="0.55"/>
+  <circle cx="268" cy="248" r="16" fill="#FF7A3D" opacity="0.55"/>
+
+  <!-- nose -->
+  <ellipse cx="200" cy="238" rx="16" ry="11" fill="#3A2115"/>
+
+  <!-- big bold open-mouth grin -->
+  <path d="M148 258 q52 46 104 0 q-8 40 -52 40 q-44 0 -52 -40 z" fill="#5C1410"/>
+  <path d="M162 266 q38 26 76 0 q-6 22 -38 22 q-32 0 -38 -22 z" fill="#FF8F7A"/>
+  <path d="M172 262 l10 14 M188 266 l6 16 M204 266 l-6 16 M220 262 l-10 14" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- flame accent -->
+  <path d="M300 150 q14 -20 4 -36 q18 8 16 30 q-2 16 -20 6z" fill="#FF7A3D"/>
+</svg>

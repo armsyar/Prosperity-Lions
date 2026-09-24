@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A colourful yusheng prosperity toss with chopsticks">
+  <defs>
+    <linearGradient id="q3-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF3D6"/>
+      <stop offset="100%" stop-color="#FFDE9E"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#q3-bg)"/>
+
+  <!-- table -->
+  <ellipse cx="400" cy="430" rx="260" ry="40" fill="#D6503F"/>
+
+  <!-- big platter -->
+  <ellipse cx="400" cy="400" rx="220" ry="46" fill="#FFFFFF"/>
+  <ellipse cx="400" cy="392" rx="190" ry="34" fill="#FFE7B0"/>
+
+  <!-- toss ingredients flying up -->
+  <g>
+    <rect x="330" y="150" width="70" height="14" rx="7" fill="#FF8F3D" transform="rotate(-15 365 157)"/>
+    <rect x="400" y="120" width="70" height="14" rx="7" fill="#FFFFFF" transform="rotate(10 435 127)"/>
+    <rect x="280" y="200" width="60" height="12" rx="6" fill="#4CAF6D" transform="rotate(20 310 206)"/>
+    <rect x="450" y="190" width="60" height="12" rx="6" fill="#FF6F97" transform="rotate(-18 480 196)"/>
+    <circle cx="380" cy="100" r="10" fill="#FFC64A"/>
+    <circle cx="470" cy="160" r="8" fill="#E63B2E"/>
+    <circle cx="300" cy="140" r="8" fill="#6C9BF0"/>
+    <circle cx="330" cy="260" r="9" fill="#FF8F3D"/>
+    <circle cx="500" cy="250" r="9" fill="#4CAF6D"/>
+  </g>
+
+  <!-- motion arcs -->
+  <g stroke="#FFC64A" stroke-width="5" fill="none" opacity="0.7" stroke-linecap="round">
+    <path d="M340 380 q10 -140 40 -220"/>
+    <path d="M400 380 q0 -160 0 -250"/>
+    <path d="M460 380 q-10 -140 -40 -220"/>
+  </g>
+
+  <!-- chopsticks, crossed, tossing motion -->
+  <g stroke="#B5241D" stroke-width="10" stroke-linecap="round">
+    <line x1="300" y1="420" x2="470" y2="330"/>
+    <line x1="500" y1="420" x2="330" y2="330"/>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A night sky with fireworks and a rising wish lantern">
+  <defs>
+    <linearGradient id="q8-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1B1035"/>
+      <stop offset="60%" stop-color="#3A2166"/>
+      <stop offset="100%" stop-color="#7A3E8C"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#q8-sky)"/>
+
+  <!-- stars -->
+  <g fill="#FFF3D6">
+    <circle cx="90" cy="70" r="3"/>
+    <circle cx="160" cy="130" r="2"/>
+    <circle cx="640" cy="60" r="3"/>
+    <circle cx="700" cy="140" r="2"/>
+    <circle cx="60" cy="220" r="2"/>
+    <circle cx="740" cy="230" r="2"/>
+    <circle cx="380" cy="40" r="2"/>
+  </g>
+
+  <!-- fireworks bursts -->
+  <g stroke="#FFC64A" stroke-width="5" stroke-linecap="round">
+    <g transform="translate(180,140)">
+      <line x1="0" y1="-40" x2="0" y2="40"/>
+      <line x1="-40" y1="0" x2="40" y2="0"/>
+      <line x1="-28" y1="-28" x2="28" y2="28"/>
+      <line x1="-28" y1="28" x2="28" y2="-28"/>
+    </g>
+    <g transform="translate(600,180)" stroke="#FF6F97">
+      <line x1="0" y1="-34" x2="0" y2="34"/>
+      <line x1="-34" y1="0" x2="34" y2="0"/>
+      <line x1="-24" y1="-24" x2="24" y2="24"/>
+      <line x1="-24" y1="24" x2="24" y2="-24"/>
+    </g>
+    <g transform="translate(470,90)" stroke="#6C9BF0">
+      <line x1="0" y1="-24" x2="0" y2="24"/>
+      <line x1="-24" y1="0" x2="24" y2="0"/>
+      <line x1="-17" y1="-17" x2="17" y2="17"/>
+      <line x1="-17" y1="17" x2="17" y2="-17"/>
+    </g>
+  </g>
+  <g fill="#FFC64A" opacity="0.9">
+    <circle cx="180" cy="140" r="6"/>
+    <circle cx="470" cy="90" r="5"/>
+  </g>
+  <circle cx="600" cy="180" r="6" fill="#FF6F97"/>
+
+  <!-- skyline silhouette -->
+  <path d="M0 420 L0 380 L60 380 L60 340 L120 340 L120 390 L200 390 L200 320 L260 320 L260 400 L340 400 L340 350 L420 350 L420 410 L500 410 L500 330 L580 330 L580 400 L660 400 L660 360 L740 360 L740 420 L800 420 L800 500 L0 500 Z" fill="#140A28"/>
+
+  <!-- rising wish lantern -->
+  <g transform="translate(400 240)">
+    <ellipse cx="0" cy="60" rx="30" ry="10" fill="#B5241D" opacity="0.5"/>
+    <rect x="-34" y="-40" width="68" height="90" rx="20" fill="#FFC64A"/>
+    <rect x="-34" y="-40" width="68" height="90" rx="20" fill="none" stroke="#E8A628" stroke-width="3"/>
+    <text x="0" y="18" text-anchor="middle" font-size="34" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#B5241D">福</text>
+    <rect x="-34" y="-52" width="68" height="10" fill="#E8A628"/>
+  </g>
+
+  <!-- little floating sparkles trailing the lantern -->
+  <g fill="#FFECC8">
+    <circle cx="360" cy="330" r="3"/>
+    <circle cx="440" cy="350" r="2.4"/>
+    <circle cx="380" cy="370" r="2"/>
+  </g>
+</svg>

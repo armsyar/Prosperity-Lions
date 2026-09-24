@@ -1,0 +1,72 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Zhi Zhi, the Wisdom Lion">
+  <defs>
+    <radialGradient id="zz-bg" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#E7EEFD"/>
+      <stop offset="100%" stop-color="#CBDAF9"/>
+    </radialGradient>
+  </defs>
+  <circle cx="200" cy="200" r="196" fill="url(#zz-bg)"/>
+
+  <g fill="#3A5FC4">
+    <circle cx="120" cy="330" r="38"/>
+    <circle cx="165" cy="352" r="38"/>
+    <circle cx="210" cy="360" r="38"/>
+    <circle cx="255" cy="352" r="38"/>
+    <circle cx="300" cy="330" r="38"/>
+  </g>
+  <g fill="#FFC64A">
+    <circle cx="120" cy="330" r="16"/>
+    <circle cx="165" cy="352" r="16"/>
+    <circle cx="210" cy="360" r="16"/>
+    <circle cx="255" cy="352" r="16"/>
+    <circle cx="300" cy="330" r="16"/>
+  </g>
+
+  <g fill="#3A5FC4">
+    <circle cx="78" cy="205" r="58"/>
+    <circle cx="322" cy="205" r="58"/>
+    <circle cx="112" cy="110" r="50"/>
+    <circle cx="288" cy="110" r="50"/>
+    <circle cx="200" cy="82" r="52"/>
+  </g>
+
+  <circle cx="118" cy="140" r="34" fill="#6C9BF0"/>
+  <circle cx="282" cy="140" r="34" fill="#6C9BF0"/>
+  <circle cx="118" cy="140" r="16" fill="#FFC64A"/>
+  <circle cx="282" cy="140" r="16" fill="#FFC64A"/>
+
+  <circle cx="200" cy="210" r="128" fill="#6C9BF0"/>
+
+  <path d="M180 100 q20 -34 40 0 q-6 26 -20 30 q-14 -4 -20 -30 z" fill="#FFC64A"/>
+  <circle cx="200" cy="98" r="7" fill="#EAF1FE"/>
+
+  <!-- brows: soft, slightly worried/shy -->
+  <path d="M130 186 q26 4 58 6" stroke="#1F3B85" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M270 186 q-26 4 -58 6" stroke="#1F3B85" stroke-width="9" fill="none" stroke-linecap="round"/>
+
+  <!-- eyes: looking slightly down/away, shy -->
+  <ellipse cx="160" cy="216" rx="24" ry="26" fill="#FFFFFF"/>
+  <ellipse cx="240" cy="216" rx="24" ry="26" fill="#FFFFFF"/>
+  <circle cx="156" cy="228" r="12" fill="#1F3B85"/>
+  <circle cx="236" cy="228" r="12" fill="#1F3B85"/>
+
+  <!-- round wisdom glasses -->
+  <circle cx="160" cy="216" r="30" fill="none" stroke="#1F3B85" stroke-width="5"/>
+  <circle cx="240" cy="216" r="30" fill="none" stroke="#1F3B85" stroke-width="5"/>
+  <line x1="190" y1="216" x2="210" y2="216" stroke="#1F3B85" stroke-width="5"/>
+
+  <!-- shy blush -->
+  <circle cx="132" cy="252" r="15" fill="#FF9BB0" opacity="0.6"/>
+  <circle cx="268" cy="252" r="15" fill="#FF9BB0" opacity="0.6"/>
+
+  <ellipse cx="200" cy="240" rx="14" ry="9" fill="#1F3B85"/>
+
+  <!-- small, hesitant smile -->
+  <path d="M176 262 q24 14 48 0" stroke="#1F3B85" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- little book accent -->
+  <g transform="translate(298 300) rotate(-10)">
+    <rect x="-20" y="-14" width="40" height="28" rx="3" fill="#EAF1FE" stroke="#1F3B85" stroke-width="3"/>
+    <line x1="0" y1="-14" x2="0" y2="14" stroke="#1F3B85" stroke-width="2"/>
+  </g>
+</svg>

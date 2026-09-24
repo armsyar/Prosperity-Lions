@@ -1,0 +1,47 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A table of Chinese New Year snacks">
+  <defs>
+    <linearGradient id="q6-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF3D6"/>
+      <stop offset="100%" stop-color="#FFE0A8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#q6-bg)"/>
+
+  <!-- table -->
+  <rect y="360" width="800" height="140" fill="#D99A66"/>
+  <rect y="356" width="800" height="10" fill="#B5241D"/>
+
+  <!-- tray -->
+  <ellipse cx="400" cy="370" rx="260" ry="34" fill="#FFFFFF"/>
+  <ellipse cx="400" cy="364" rx="230" ry="24" fill="#FFECC8"/>
+
+  <!-- pineapple tarts -->
+  <g>
+    <circle cx="220" cy="340" r="26" fill="#FBD98A"/>
+    <circle cx="220" cy="338" r="12" fill="#FF9E2C"/>
+    <circle cx="270" cy="352" r="26" fill="#FBD98A"/>
+    <circle cx="270" cy="350" r="12" fill="#FF9E2C"/>
+  </g>
+
+  <!-- love letters (rolled wafer) -->
+  <g fill="#F0C674" stroke="#D99A3A" stroke-width="2">
+    <rect x="330" y="320" width="70" height="20" rx="10"/>
+    <rect x="330" y="345" width="70" height="20" rx="10"/>
+  </g>
+
+  <!-- kueh bangkit stars -->
+  <g fill="#FFFDF3" stroke="#EADFC2" stroke-width="2">
+    <path d="M470 330 l8 18 l20 2 l-15 14 l4 20 l-17 -11 l-17 11 l4 -20 l-15 -14 l20 -2 z"/>
+    <path d="M540 350 l7 15 l17 2 l-13 12 l3 17 l-14 -9 l-14 9 l3 -17 l-13 -12 l17 -2 z"/>
+  </g>
+
+  <!-- peanut cookies -->
+  <g fill="#E8B060">
+    <circle cx="610" cy="335" r="18"/>
+    <circle cx="650" cy="350" r="18"/>
+  </g>
+
+  <!-- little plate stack accent -->
+  <ellipse cx="400" cy="460" rx="90" ry="14" fill="#FFFFFF"/>
+  <ellipse cx="400" cy="452" rx="90" ry="14" fill="#FFECC8"/>
+</svg>

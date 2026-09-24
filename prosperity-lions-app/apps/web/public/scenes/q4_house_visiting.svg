@@ -1,0 +1,51 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A row of houses decorated for house visiting during Chinese New Year">
+  <defs>
+    <linearGradient id="q4-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD7B0"/>
+      <stop offset="100%" stop-color="#FFEFD6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#q4-sky)"/>
+
+  <!-- ground -->
+  <rect y="420" width="800" height="80" fill="#F0B98A"/>
+  <rect y="415" width="800" height="10" fill="#D99A66"/>
+
+  <!-- three shophouses -->
+  <g>
+    <!-- left -->
+    <rect x="70" y="220" width="180" height="200" fill="#FFECC8"/>
+    <rect x="70" y="200" width="180" height="30" fill="#E63B2E"/>
+    <rect x="140" y="300" width="60" height="120" rx="26" fill="#B5241D"/>
+    <rect x="90" y="250" width="40" height="40" fill="#6C9BF0"/>
+    <rect x="190" y="250" width="40" height="40" fill="#6C9BF0"/>
+
+    <!-- middle, taller, hero house -->
+    <rect x="300" y="170" width="200" height="250" fill="#FFF3E0"/>
+    <rect x="300" y="146" width="200" height="34" fill="#E63B2E"/>
+    <rect x="360" y="280" width="80" height="140" rx="30" fill="#B5241D"/>
+    <rect x="440" y="280" width="80" height="140" rx="30" fill="#B5241D" opacity="0"/>
+    <rect x="320" y="210" width="46" height="46" fill="#6C9BF0"/>
+    <rect x="434" y="210" width="46" height="46" fill="#6C9BF0"/>
+    <text x="400" y="410" text-anchor="middle" font-size="40" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#FFC64A">福</text>
+
+    <!-- right -->
+    <rect x="550" y="230" width="180" height="190" fill="#FFECC8"/>
+    <rect x="550" y="210" width="180" height="30" fill="#E63B2E"/>
+    <rect x="610" y="300" width="60" height="120" rx="26" fill="#B5241D"/>
+    <rect x="570" y="260" width="40" height="40" fill="#6C9BF0"/>
+    <rect x="670" y="260" width="40" height="40" fill="#6C9BF0"/>
+  </g>
+
+  <!-- lanterns strung between houses -->
+  <path d="M120 150 Q400 90 690 160" stroke="#B5241D" stroke-width="3" fill="none"/>
+  <g fill="#E63B2E">
+    <ellipse cx="220" cy="140" rx="16" ry="20"/>
+    <ellipse cx="330" cy="112" rx="16" ry="20"/>
+    <ellipse cx="470" cy="108" rx="16" ry="20"/>
+    <ellipse cx="580" cy="130" rx="16" ry="20"/>
+  </g>
+
+  <!-- pathway -->
+  <path d="M400 420 L400 500" stroke="#E8CBA0" stroke-width="60"/>
+</svg>

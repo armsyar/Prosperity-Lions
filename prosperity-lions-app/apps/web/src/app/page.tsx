@@ -1,14 +1,30 @@
-// Landing/start screen. Real design should follow the tone in
-// docs/personality-quiz.md Section 2 ("Opening Screen").
+// Landing/cover screen. Tone follows docs/personality-quiz.md Section 2
+// ("Opening Screen").
 export default function Home() {
+  const lionIds = ["hong_hong", "rui_rui", "xing_xing", "xi_xi", "zhi_zhi"];
+
   return (
-    <main style={{ padding: 24, fontFamily: "sans-serif", maxWidth: 480, margin: "0 auto" }}>
-      <h1>New year, new lion!</h1>
-      <p>
-        Answer a few quick questions about your Chinese New Year style, and meet the baby lion who
-        matches you.
-      </p>
-      <a href="/quiz">Start the quiz</a>
+    <main className="storybook-page">
+      <div className="cover">
+        <div className="cover-lions">
+          {lionIds.map((id) => (
+            <img key={id} src={`/lions/${id}.svg`} alt="" />
+          ))}
+        </div>
+        <h1 className="storybook-heading" style={{ fontSize: 32, margin: 0 }}>
+          New year, new lion!
+        </h1>
+        <p style={{ fontSize: 16, lineHeight: 1.6, color: "#6b5245" }}>
+          Answer a few quick questions about your Chinese New Year style, and meet the baby lion
+          who matches you.
+        </p>
+        <p style={{ fontSize: 13, color: "#9a7d68" }}>
+          Been celebrating all your life, or first time? Everyone&rsquo;s welcome.
+        </p>
+        <a href="/quiz" className="btn-primary">
+          Start the story
+        </a>
+      </div>
     </main>
   );
 }

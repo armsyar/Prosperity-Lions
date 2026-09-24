@@ -1,0 +1,55 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A festive street market with lanterns and stalls">
+  <defs>
+    <linearGradient id="q5-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7A3E8C"/>
+      <stop offset="55%" stop-color="#C1568C"/>
+      <stop offset="100%" stop-color="#FFB98F"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#q5-sky)"/>
+
+  <!-- lantern garland -->
+  <path d="M20 90 Q400 30 780 90" stroke="#B5241D" stroke-width="3" fill="none"/>
+  <g>
+    <g transform="translate(90,110)"><ellipse rx="20" ry="26" fill="#E63B2E"/><rect x="-14" y="-30" width="28" height="8" fill="#FFC64A"/></g>
+    <g transform="translate(220,68)"><ellipse rx="20" ry="26" fill="#E63B2E"/><rect x="-14" y="-30" width="28" height="8" fill="#FFC64A"/></g>
+    <g transform="translate(350,50)"><ellipse rx="22" ry="28" fill="#E63B2E"/><rect x="-15" y="-32" width="30" height="8" fill="#FFC64A"/></g>
+    <g transform="translate(480,52)"><ellipse rx="22" ry="28" fill="#E63B2E"/><rect x="-15" y="-32" width="30" height="8" fill="#FFC64A"/></g>
+    <g transform="translate(610,72)"><ellipse rx="20" ry="26" fill="#E63B2E"/><rect x="-14" y="-30" width="28" height="8" fill="#FFC64A"/></g>
+    <g transform="translate(720,108)"><ellipse rx="20" ry="26" fill="#E63B2E"/><rect x="-14" y="-30" width="28" height="8" fill="#FFC64A"/></g>
+  </g>
+
+  <!-- ground -->
+  <rect y="400" width="800" height="100" fill="#3E2A55"/>
+
+  <!-- stalls -->
+  <g>
+    <rect x="90" y="290" width="150" height="110" fill="#FFECC8"/>
+    <path d="M80 290 L240 290 L220 250 L100 250 Z" fill="#E63B2E"/>
+    <path d="M100 250 L110 290 M140 250 L150 290 M180 250 L190 290 M220 250 L230 290" stroke="#FFC64A" stroke-width="4"/>
+
+    <rect x="330" y="270" width="160" height="130" fill="#FFECC8"/>
+    <path d="M318 270 L500 270 L478 226 L340 226 Z" fill="#FFC64A"/>
+    <path d="M340 226 L352 270 M382 226 L392 270 M424 226 L432 270 M466 226 L476 270" stroke="#E63B2E" stroke-width="4"/>
+
+    <rect x="570" y="290" width="150" height="110" fill="#FFECC8"/>
+    <path d="M560 290 L720 290 L700 250 L580 250 Z" fill="#E63B2E"/>
+    <path d="M580 250 L590 290 M620 250 L630 290 M660 250 L670 290 M700 250 L710 290" stroke="#FFC64A" stroke-width="4"/>
+  </g>
+
+  <!-- string of pennant flags -->
+  <g fill="#FFC64A">
+    <path d="M60 220 l18 12 l-18 12 z"/>
+    <path d="M150 210 l18 12 l-18 12 z"/>
+    <path d="M700 220 l18 12 l-18 12 z"/>
+    <path d="M620 210 l18 12 l-18 12 z"/>
+  </g>
+
+  <!-- silhouettes browsing -->
+  <g fill="#2A1B3D" opacity="0.85">
+    <ellipse cx="260" cy="360" rx="16" ry="18"/>
+    <path d="M240 396 q20 -22 40 0 l0 20 q-20 8 -40 0z"/>
+    <ellipse cx="540" cy="368" rx="16" ry="18"/>
+    <path d="M520 404 q20 -22 40 0 l0 16 q-20 6 -40 0z"/>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A family reunion dinner table under red lanterns">
+  <defs>
+    <linearGradient id="q1-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE1C4"/>
+      <stop offset="100%" stop-color="#FFC9A8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#q1-sky)"/>
+
+  <!-- hanging lanterns -->
+  <g>
+    <line x1="120" y1="0" x2="120" y2="60" stroke="#B5241D" stroke-width="4"/>
+    <ellipse cx="120" cy="90" rx="30" ry="38" fill="#E63B2E"/>
+    <rect x="105" y="58" width="30" height="10" fill="#FFC64A"/>
+    <line x1="120" y1="128" x2="120" y2="146" stroke="#FFC64A" stroke-width="4"/>
+  </g>
+  <g>
+    <line x1="680" y1="0" x2="680" y2="60" stroke="#B5241D" stroke-width="4"/>
+    <ellipse cx="680" cy="90" rx="30" ry="38" fill="#E63B2E"/>
+    <rect x="665" y="58" width="30" height="10" fill="#FFC64A"/>
+    <line x1="680" y1="128" x2="680" y2="146" stroke="#FFC64A" stroke-width="4"/>
+  </g>
+
+  <!-- floor -->
+  <rect y="400" width="800" height="100" fill="#F4A97A"/>
+
+  <!-- round table -->
+  <ellipse cx="400" cy="410" rx="230" ry="34" fill="#B5241D"/>
+  <ellipse cx="400" cy="400" rx="230" ry="34" fill="#D6503F"/>
+  <ellipse cx="400" cy="395" rx="205" ry="26" fill="#FFE7DA"/>
+
+  <!-- dishes -->
+  <circle cx="320" cy="392" r="20" fill="#4CAF6D"/>
+  <circle cx="400" cy="386" r="26" fill="#FFC64A"/>
+  <circle cx="480" cy="392" r="20" fill="#E63B2E"/>
+  <circle cx="360" cy="404" r="14" fill="#FF8FB1"/>
+  <circle cx="440" cy="404" r="14" fill="#6C9BF0"/>
+
+  <!-- family silhouettes, simple rounded shapes, no specific identity -->
+  <g fill="#8C3255">
+    <ellipse cx="250" cy="330" rx="26" ry="30"/>
+    <path d="M215 380 q35 -40 70 0 l0 20 q-35 14 -70 0 z"/>
+  </g>
+  <g fill="#3A5FC4">
+    <ellipse cx="340" cy="316" rx="24" ry="28"/>
+    <path d="M308 362 q32 -36 64 0 l0 22 q-32 12 -64 0 z"/>
+  </g>
+  <g fill="#E8A628">
+    <ellipse cx="460" cy="316" rx="24" ry="28"/>
+    <path d="M428 362 q32 -36 64 0 l0 22 q-32 12 -64 0 z"/>
+  </g>
+  <g fill="#2E7D4F">
+    <ellipse cx="550" cy="330" rx="22" ry="26"/>
+    <path d="M520 372 q30 -32 60 0 l0 18 q-30 12 -60 0 z"/>
+  </g>
+  <!-- small child silhouette -->
+  <g fill="#E63B2E">
+    <ellipse cx="410" cy="336" rx="16" ry="18"/>
+    <path d="M390 370 q20 -22 40 0 l0 14 q-20 8 -40 0 z"/>
+  </g>
+</svg>

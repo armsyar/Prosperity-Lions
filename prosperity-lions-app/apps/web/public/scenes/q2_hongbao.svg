@@ -1,0 +1,33 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A hand offering a red packet, hongbao">
+  <defs>
+    <radialGradient id="q2-bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#FFDCC8"/>
+      <stop offset="100%" stop-color="#FFB98F"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#q2-bg)"/>
+
+  <!-- soft glow behind envelope -->
+  <circle cx="400" cy="240" r="170" fill="#FFE7B0" opacity="0.6"/>
+
+  <!-- giving hand -->
+  <path d="M240 420 q10 -70 90 -80 q40 -4 60 10 l90 10 q26 2 26 26 q0 22 -26 24 l-100 6 q-70 6 -100 40 q-20 -6 -40 -36z" fill="#F4B183"/>
+
+  <!-- envelope -->
+  <g transform="translate(400 230) rotate(-4)">
+    <rect x="-110" y="-80" width="220" height="160" rx="14" fill="#E63B2E"/>
+    <rect x="-110" y="-80" width="220" height="160" rx="14" fill="none" stroke="#FFC64A" stroke-width="4"/>
+    <path d="M-110 -80 L0 10 L110 -80 Z" fill="#B5241D"/>
+    <text x="0" y="40" text-anchor="middle" font-size="70" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" fill="#FFC64A">福</text>
+  </g>
+
+  <!-- confetti / sparkle -->
+  <g fill="#FFC64A">
+    <circle cx="180" cy="140" r="7"/>
+    <circle cx="620" cy="150" r="6"/>
+    <circle cx="660" cy="260" r="5"/>
+    <circle cx="150" cy="280" r="5"/>
+    <path d="M580 100 l6 14 l14 6 l-14 6 l-6 14 l-6 -14 l-14 -6 l14 -6 z"/>
+    <path d="M210 340 l5 11 l11 5 l-11 5 l-5 11 l-5 -11 l-11 -5 l11 -5 z"/>
+  </g>
+</svg>
