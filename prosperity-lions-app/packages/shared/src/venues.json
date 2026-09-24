@@ -1,0 +1,93 @@
+{
+  "restaurants": [
+    {
+      "id": "soi_social",
+      "name": "Soi Social",
+      "type": "restaurant",
+      "description": "Savour the wonders of modern-Thai cuisine with a flavourful 4-course lunch.",
+      "championLionId": "hong_hong",
+      "dietaryTags": [],
+      "qrCodeId": "QR-SOISOCIAL"
+    },
+    {
+      "id": "syun",
+      "name": "Syun",
+      "type": "restaurant",
+      "description": "Savour the flavours of our authentic Japanese lunch sets, expertly curated to satisfy your cravings.",
+      "championLionId": "xi_xi",
+      "dietaryTags": [],
+      "qrCodeId": "QR-SYUN"
+    },
+    {
+      "id": "feng_shui_inn",
+      "name": "Feng Shui Inn",
+      "type": "restaurant",
+      "description": "Indulge in a 5 or 6-course dim sum set filled with traditional and contemporary Cantonese delights.",
+      "championLionId": "rui_rui",
+      "dietaryTags": [],
+      "qrCodeId": "QR-FENGSHUIINN"
+    },
+    {
+      "id": "ocean_restaurant",
+      "name": "Ocean Restaurant",
+      "type": "restaurant",
+      "description": "Dive into a sumptuously sustainable 4 or 6-course lunch that features the best the ocean has to offer.",
+      "championLionId": "zhi_zhi",
+      "dietaryTags": [],
+      "qrCodeId": "QR-OCEANRESTAURANT"
+    },
+    {
+      "id": "moutarde_by_paul_pairet",
+      "name": "Moutarde by Paul Pairet",
+      "type": "restaurant",
+      "description": "Casual eatery by Chef Paul Pairet. Focused on whole-piece cooking, carving and sharing, and the combination of classic French flavours with a contemporary twist.",
+      "championLionId": "xing_xing",
+      "dietaryTags": [],
+      "qrCodeId": "QR-MOUTARDE"
+    }
+  ],
+  "attractions": [
+    {
+      "id": "universal_studios_singapore",
+      "name": "Universal Studios Singapore",
+      "type": "attraction",
+      "description": "",
+      "championLionId": "hong_hong",
+      "qrCodeId": "QR-USS"
+    },
+    {
+      "id": "adventure_cove_waterpark",
+      "name": "Adventure Cove Waterpark",
+      "type": "attraction",
+      "description": "",
+      "championLionId": "xi_xi",
+      "qrCodeId": "QR-ADVENTURECOVE"
+    },
+    {
+      "id": "singapore_oceanarium",
+      "name": "Singapore Oceanarium",
+      "type": "attraction",
+      "description": "",
+      "championLionId": "zhi_zhi",
+      "qrCodeId": "QR-OCEANARIUM"
+    },
+    {
+      "id": "harry_potter_visions_of_magic",
+      "name": "Harry Potter: Visions of Magic Experience",
+      "type": "attraction",
+      "description": "",
+      "championLionId": "xing_xing",
+      "qrCodeId": "QR-HPVOM"
+    },
+    {
+      "id": "dopamine_land_singapore",
+      "name": "Dopamine Land Singapore",
+      "type": "attraction",
+      "description": "",
+      "championLionId": "rui_rui",
+      "qrCodeId": "QR-DOPAMINELAND"
+    }
+  ],
+  "hotels": [],
+  "retail": []
+}

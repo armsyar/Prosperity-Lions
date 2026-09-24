@@ -1,0 +1,16 @@
+{
+  "name": "@prosperity-lions/shared",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shared types and seed data (lions, venues, quiz, fortunes) used by apps/api and apps/web.",
+  "type": "module",
+  "exports": {
+    "./types": "./src/types.ts",
+    "./systemPrompt": "./src/systemPrompt.ts",
+    "./lions.json": "./src/lions.json",
+    "./venues.json": "./src/venues.json",
+    "./promotions.json": "./src/promotions.json",
+    "./fortunes.json": "./src/fortunes.json",
+    "./quiz.json": "./src/quiz.json"
+  }
+}

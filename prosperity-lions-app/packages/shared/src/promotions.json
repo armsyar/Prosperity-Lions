@@ -1,0 +1,13 @@
+[
+  {
+    "id": "example-promo-1",
+    "venueId": "feng_shui_inn",
+    "title": "REPLACE ME: e.g. 15% off dim sum lunch set",
+    "description": "REPLACE ME with the real offer copy.",
+    "validFrom": "2027-01-20",
+    "validTo": "2027-02-19",
+    "terms": "REPLACE ME. Terms and conditions apply.",
+    "redemptionMethod": "Show this voucher QR at the restaurant before ordering.",
+    "stock": 100
+  }
+]

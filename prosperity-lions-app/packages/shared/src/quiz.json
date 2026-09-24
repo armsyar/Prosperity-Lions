@@ -1,0 +1,113 @@
+{
+  "_note": "8 scored questions. Each option: main lion +2, secondary lion +1. See docs/personality-quiz.md for full design notes and glossary chips.",
+  "optionalQuestions": [
+    {
+      "id": "opt-group",
+      "prompt": "Who are you visiting with?",
+      "options": ["Solo", "Couple", "Friends", "Family with kids", "Family with seniors"]
+    },
+    {
+      "id": "opt-vibe",
+      "prompt": "What's your vibe today?",
+      "options": ["Thrills", "Food", "Chill", "Culture and learning", "A bit of everything"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "title": "The Reunion Dinner",
+      "prompt": "You arrive at the host's home for the reunion dinner. The house is packed and noisy. What do you do first?",
+      "options": [
+        { "text": "Greet everyone loudly and start organising who sits where", "main": "hong_hong", "secondary": "xing_xing" },
+        { "text": "Crack a joke and start teasing the cousins", "main": "rui_rui", "secondary": "hong_hong" },
+        { "text": "Slip off to peek in every room and open the snack tins", "main": "xing_xing", "secondary": "zhi_zhi" },
+        { "text": "Find the little kids and grandparents for hugs and catching up", "main": "xi_xi", "secondary": "rui_rui" },
+        { "text": "Find a quiet corner and enjoy the chaos from a distance", "main": "zhi_zhi", "secondary": "xi_xi" }
+      ]
+    },
+    {
+      "id": "q2",
+      "title": "The Hongbao",
+      "prompt": "Someone hands you a red packet. What's your move?",
+      "options": [
+        { "text": "Open it right away, no suspense needed", "main": "hong_hong", "secondary": "rui_rui" },
+        { "text": "Squeeze it, guess the amount and bet on it", "main": "rui_rui", "secondary": "xing_xing" },
+        { "text": "Study the envelope design and ask about the story behind it", "main": "xing_xing", "secondary": "hong_hong" },
+        { "text": "Say thank you with a big smile and a warm wish for them", "main": "xi_xi", "secondary": "zhi_zhi" },
+        { "text": "Say thanks politely and save it for something meaningful", "main": "zhi_zhi", "secondary": "xi_xi" }
+      ]
+    },
+    {
+      "id": "q3",
+      "title": "The Prosperity Toss",
+      "prompt": "The whole table stands up for the yusheng toss. How do you join in?",
+      "options": [
+        { "text": "Toss it the highest and shout the loudest wish", "main": "hong_hong", "secondary": "xing_xing" },
+        { "text": "Make up silly wishes and get everyone laughing", "main": "rui_rui", "secondary": "hong_hong" },
+        { "text": "Poke at the unfamiliar ingredients and ask what each one means", "main": "xing_xing", "secondary": "zhi_zhi" },
+        { "text": "Make sure the little ones and grandparents can reach and join in", "main": "xi_xi", "secondary": "rui_rui" },
+        { "text": "Toss quietly while whispering one sincere wish", "main": "zhi_zhi", "secondary": "xi_xi" }
+      ]
+    },
+    {
+      "id": "q4",
+      "title": "House Visiting",
+      "prompt": "You're on your fifth house visit of the day. How do you handle it?",
+      "options": [
+        { "text": "Lead the plan: 'Team, three more houses before dinner!'", "main": "hong_hong", "secondary": "rui_rui" },
+        { "text": "Become the life of the party at every house", "main": "rui_rui", "secondary": "xing_xing" },
+        { "text": "Enjoy discovering each home's different snacks and stories", "main": "xing_xing", "secondary": "hong_hong" },
+        { "text": "Stay for long, warm chats so every host feels appreciated", "main": "xi_xi", "secondary": "zhi_zhi" },
+        { "text": "Have a quiet one-on-one chat with one person, then take a short break", "main": "zhi_zhi", "secondary": "xi_xi" }
+      ]
+    },
+    {
+      "id": "q5",
+      "title": "The Festive Street Market",
+      "prompt": "You're walking through the festive lights. What pulls you in first?",
+      "options": [
+        { "text": "The biggest, loudest attraction, front row please", "main": "hong_hong", "secondary": "xing_xing" },
+        { "text": "Game stalls, photo booths and lucky draws", "main": "rui_rui", "secondary": "hong_hong" },
+        { "text": "The most unusual stall, to try something you've never tasted", "main": "xing_xing", "secondary": "zhi_zhi" },
+        { "text": "Picking out little gifts for people you love", "main": "xi_xi", "secondary": "rui_rui" },
+        { "text": "The calligraphy or lantern riddle corner", "main": "zhi_zhi", "secondary": "xi_xi" }
+      ]
+    },
+    {
+      "id": "q6",
+      "title": "The Snack Table",
+      "prompt": "You reach the CNY snack table. What's your style?",
+      "options": [
+        { "text": "Grab a handful of favourites, decisive and fast", "main": "hong_hong", "secondary": "rui_rui" },
+        { "text": "Sneak the last pineapple tart and pretend it wasn't you", "main": "rui_rui", "secondary": "xing_xing" },
+        { "text": "Try one of each and ask how it's made", "main": "xing_xing", "secondary": "hong_hong" },
+        { "text": "Share your plate with whoever is nearby", "main": "xi_xi", "secondary": "zhi_zhi" },
+        { "text": "Choose one carefully and enjoy every bite slowly", "main": "zhi_zhi", "secondary": "xi_xi" }
+      ]
+    },
+    {
+      "id": "q7",
+      "title": "The Lion Dance",
+      "prompt": "The lion dance troupe arrives! Drums pound and cymbals crash. Where are you?",
+      "options": [
+        { "text": "Right at the front, ready to jump in", "main": "hong_hong", "secondary": "xing_xing" },
+        { "text": "Cheering and clapping, hoping the lion picks your hongbao", "main": "rui_rui", "secondary": "hong_hong" },
+        { "text": "Creeping close to see how the lion's eyes and mouth work", "main": "xing_xing", "secondary": "zhi_zhi" },
+        { "text": "Holding a little one's hand so they can enjoy it safely", "main": "xi_xi", "secondary": "rui_rui" },
+        { "text": "At the side, appreciating the skill and the meaning of the drumbeats", "main": "zhi_zhi", "secondary": "xi_xi" }
+      ]
+    },
+    {
+      "id": "q8",
+      "title": "The New Year Wish",
+      "prompt": "It's the start of a brand-new year. What are you wishing for?",
+      "options": [
+        { "text": "To finally do the big, scary thing I've been putting off", "main": "hong_hong", "secondary": "rui_rui" },
+        { "text": "Lots of luck, fun and good times, more of everything", "main": "rui_rui", "secondary": "xing_xing" },
+        { "text": "Something completely new: a skill, a place, an adventure", "main": "xing_xing", "secondary": "hong_hong" },
+        { "text": "Health and happiness for everyone I love", "main": "xi_xi", "secondary": "zhi_zhi" },
+        { "text": "Clarity, learning and peace of mind", "main": "zhi_zhi", "secondary": "xi_xi" }
+      ]
+    }
+  ]
+}

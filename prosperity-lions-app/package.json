@@ -1,0 +1,11 @@
+{
+  "name": "prosperity-lions-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Resorts World Sentosa Prosperity Lions: CNY guest app (quiz, lion chat, rewards, game). See docs/ for the full design.",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:api": "npm run dev --workspace=@prosperity-lions/api",
+    "dev:web": "npm run dev --workspace=@prosperity-lions/web"
+  }
+}

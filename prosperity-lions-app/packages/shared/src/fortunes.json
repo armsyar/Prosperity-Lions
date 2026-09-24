@@ -1,0 +1,23 @@
+{
+  "_note": "Placeholder blessings only. Have a Chinese-language reviewer confirm idioms, translations and cultural appropriateness before launch (see docs/technical-build-plan.md open items).",
+  "hong_hong": [
+    { "id": "hh-1", "idiom": "勇往直前", "meaning": "May you charge forward with courage", "theme": "courage" },
+    { "id": "hh-2", "idiom": "马到成功", "meaning": "May success come swiftly", "theme": "career" }
+  ],
+  "rui_rui": [
+    { "id": "rr-1", "idiom": "财源广进", "meaning": "May wealth flow in from everywhere", "theme": "wealth" },
+    { "id": "rr-2", "idiom": "笑口常开", "meaning": "May you always be laughing", "theme": "luck" }
+  ],
+  "xing_xing": [
+    { "id": "xx-1", "idiom": "步步高升", "meaning": "May you rise higher with every step", "theme": "growth" },
+    { "id": "xx-2", "idiom": "心想事成", "meaning": "May your wishes come true", "theme": "adventure" }
+  ],
+  "xi_xi": [
+    { "id": "xi-1", "idiom": "阖家欢乐", "meaning": "May your whole family be joyful", "theme": "family" },
+    { "id": "xi-2", "idiom": "身体健康", "meaning": "May you have good health", "theme": "love" }
+  ],
+  "zhi_zhi": [
+    { "id": "zz-1", "idiom": "智慧如海", "meaning": "May your wisdom be as deep as the sea", "theme": "wisdom" },
+    { "id": "zz-2", "idiom": "万事如意", "meaning": "May all go well", "theme": "peace" }
+  ]
+}

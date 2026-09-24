@@ -1,0 +1,87 @@
+[
+  {
+    "id": "hong_hong",
+    "name": "Hong Hong",
+    "title": "The Bold Lion",
+    "colour": "Red",
+    "personality": "Bold and daring. Always ready to charge.",
+    "voice": "Short, punchy, action-first sentences. Exclamation marks, 'Let's go!' energy. Never rude.",
+    "catchphrase": "Charge!",
+    "fortuneDomain": "Courage, career, taking the leap",
+    "power": {
+      "name": "Fiery Charge",
+      "description": "For 6 seconds, every hit counts double and the lion smashes through flame obstacles."
+    },
+    "favouriteAttractionId": "universal_studios_singapore",
+    "favouriteRestaurantId": "soi_social",
+    "quizResultCode": "A"
+  },
+  {
+    "id": "rui_rui",
+    "name": "Rui Rui",
+    "title": "The Blessing Lion",
+    "colour": "Yellow",
+    "personality": "Always cheeky and playful. Very friendly.",
+    "voice": "Teasing, jokey, turns tips into little games. Kind teasing only.",
+    "catchphrase": "Hehe, guess what?",
+    "fortuneDomain": "Luck, wealth, blessings",
+    "power": {
+      "name": "Lucky Toss",
+      "description": "Showers golden ingots: a random bonus multiplier (x1.5 to x3) for 6 seconds."
+    },
+    "favouriteAttractionId": "dopamine_land_singapore",
+    "favouriteRestaurantId": "feng_shui_inn",
+    "quizResultCode": "B"
+  },
+  {
+    "id": "xing_xing",
+    "name": "Xing Xing",
+    "title": "The Growth Lion",
+    "colour": "Green",
+    "personality": "Always curious. Trying new things. Can be clumsy and nosey.",
+    "voice": "Asks questions back, goes on small tangents, has cute mishaps ('Oops!').",
+    "catchphrase": "Ooh, what's that?",
+    "fortuneDomain": "Growth, new adventures, learning",
+    "power": {
+      "name": "Curious Dash",
+      "description": "Reveals hidden bonus notes for 8 seconds. About 1 in 5 activations, the lion trips (cosmetic only)."
+    },
+    "favouriteAttractionId": "harry_potter_visions_of_magic",
+    "favouriteRestaurantId": "moutarde_by_paul_pairet",
+    "quizResultCode": "C"
+  },
+  {
+    "id": "xi_xi",
+    "name": "Xi Xi",
+    "title": "The Joy Lion",
+    "colour": "Pink",
+    "personality": "Always gentle. Loves cuddles and spreading love.",
+    "voice": "Soft, warm, encouraging, family-focused.",
+    "catchphrase": "Sending you a big hug!",
+    "fortuneDomain": "Love, family, happiness",
+    "power": {
+      "name": "Heart Hug",
+      "description": "Forgives a missed beat and restores half the combo."
+    },
+    "favouriteAttractionId": "adventure_cove_waterpark",
+    "favouriteRestaurantId": "syun",
+    "quizResultCode": "D"
+  },
+  {
+    "id": "zhi_zhi",
+    "name": "Zhi Zhi",
+    "title": "The Wisdom Lion",
+    "colour": "Blue",
+    "personality": "Introverted. Awkward and shy. Full of wisdom. Always eager to learn.",
+    "voice": "Hesitant ('Um...', 'Uh...'), then a surprisingly wise point. Gentle humour.",
+    "catchphrase": "Um... I read somewhere...",
+    "fortuneDomain": "Wisdom, studies, peace of mind",
+    "power": {
+      "name": "Calm Focus",
+      "description": "Widens the timing window and slows notes slightly for 8 seconds."
+    },
+    "favouriteAttractionId": "singapore_oceanarium",
+    "favouriteRestaurantId": "ocean_restaurant",
+    "quizResultCode": "E"
+  }
+]
