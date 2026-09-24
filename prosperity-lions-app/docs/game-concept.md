@@ -62,7 +62,7 @@ Every lion has **one power** (from the character bible) and **one passive trait*
 | **Rui Rui** (yellow) | **Lucky Toss** | Showers golden ingots: a random bonus multiplier (x1.5 to x3) for 6 seconds | Random coin sparkles appear on some notes |
 | **Xing Xing** (green) | **Curious Dash** | Reveals hidden bonus notes for 8 seconds. About 1 in 5 activations, the lion trips: cosmetic only, and the effect is shortened | Occasionally spots secret coins off the beat track |
 | **Xi Xi** (pink) | **Heart Hug** | The next missed note is forgiven, and half the combo is restored | A miss only halves the combo instead of resetting it |
-| **Zhi Zhi** (blue) | **Calm Focus** | The timing window widens and notes slow slightly for 8 seconds | Starts each round with a slightly wider timing window |
+| **Zhi Zhi** (purple) | **Calm Focus** | The timing window widens and notes slow slightly for 8 seconds | Starts each round with a slightly wider timing window |
 
 **Balance rule:** playtest until all five lions have roughly the same average star rating. A lion should feel different, not stronger.
 

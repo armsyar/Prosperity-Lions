@@ -17,6 +17,11 @@ const DEFAULT_CHIPS = [
   "Just chat"
 ];
 
+// How many raw Anthropic-format messages to keep and resend for memory.
+// Keeps token cost bounded (docs/chat-conversation-flow.md Section 13:
+// "Cost controls") while still giving the lion recent-turn context.
+const MAX_HISTORY_MESSAGES = 20;
+
 export default function ChatPage() {
   const [guestId, setGuestId] = useState<string | null>(null);
   const [lionId, setLionId] = useState<string | null>(null);
@@ -24,17 +29,37 @@ export default function ChatPage() {
   const [messages, setMessages] = useState<{ role: string; text: string }[]>([]);
   const [input, setInput] = useState("");
   const [sending, setSending] = useState(false);
+  const [points, setPoints] = useState<number | null>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
+  // Raw Anthropic-format message history (includes tool_use/tool_result
+  // blocks), separate from the simplified `messages` used for the UI. This
+  // is what actually gives the lion memory between turns - previously this
+  // was never sent to the server at all, so every message started fresh.
+  const historyRef = useRef<any[]>([]);
 
   useEffect(() => {
-    setGuestId(localStorage.getItem("guestId"));
+    const gid = localStorage.getItem("guestId");
+    setGuestId(gid);
     setLionId(localStorage.getItem("lionId"));
     setLionName(localStorage.getItem("lionName") ?? "");
+    if (gid) refreshPoints(gid);
   }, []);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, sending]);
+
+  async function refreshPoints(gid: string) {
+    try {
+      const res = await fetch(`${API_BASE}/api/points/${gid}`);
+      if (res.ok) {
+        const data = await res.json();
+        setPoints(data.pointsBalance ?? null);
+      }
+    } catch {
+      // Non-critical - just skip updating the badge this time.
+    }
+  }
 
   async function send(text?: string) {
     const userMsg = text ?? input;
@@ -47,13 +72,23 @@ export default function ChatPage() {
       const res = await fetch(`${API_BASE}/api/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ guestId, message: userMsg })
+        body: JSON.stringify({
+          guestId,
+          message: userMsg,
+          history: historyRef.current.slice(-MAX_HISTORY_MESSAGES)
+        })
       });
       const data = await res.json();
       setMessages((m) => [
         ...m,
         { role: "lion", text: data.reply ?? `[error: ${data.error ?? "unknown"}]` }
       ]);
+      if (Array.isArray(data.messages)) {
+        historyRef.current = data.messages;
+      }
+      // A chat turn can award Lucky Points (award_points tool) or trigger a
+      // hongbao draw, so refresh the badge after every reply.
+      refreshPoints(guestId);
     } catch {
       setMessages((m) => [...m, { role: "lion", text: "[connection error, please try again]" }]);
     } finally {
@@ -81,12 +116,41 @@ export default function ChatPage() {
     >
       <div className="chat-header">
         {lionId && <img src={`/lions/${lionId}.svg`} alt={lionName} />}
-        <div>
+        <div style={{ flex: 1 }}>
           <div style={{ fontFamily: "Baloo 2, sans-serif", fontWeight: 700, fontSize: 16 }}>
             {lionName || "Your lion"}
           </div>
           <div style={{ fontSize: 12, color: "#9a7d68" }}>Online for CNY</div>
         </div>
+        {points !== null && (
+          <span
+            title="Lucky Points"
+            style={{
+              fontSize: 12,
+              fontWeight: 700,
+              color: "var(--cny-red-dark)",
+              whiteSpace: "nowrap"
+            }}
+          >
+            🧧 {points}
+          </span>
+        )}
+        <a
+          href="/game"
+          title="Play Lion Dance Party"
+          style={{
+            fontSize: 12,
+            fontWeight: 700,
+            color: "var(--cny-red-dark)",
+            border: "2px solid var(--cny-red)",
+            borderRadius: 999,
+            padding: "8px 12px",
+            textDecoration: "none",
+            whiteSpace: "nowrap"
+          }}
+        >
+          🥁 Play
+        </a>
       </div>
 
       <div

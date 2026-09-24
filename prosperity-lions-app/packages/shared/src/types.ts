@@ -96,3 +96,17 @@ export interface PrizeDraw {
   terms: string | null;
   awardedAt: string;
 }
+
+export interface GameScore {
+  id: string;
+  guestId: string;
+  lionId: LionId;
+  songId: string;
+  difficulty: "easy" | "normal" | "hard";
+  stars: 0 | 1 | 2 | 3;
+  coins: number;
+  accuracy: number;
+  maxCombo: number;
+  powerUsed: boolean;
+  playedAt: string;
+}

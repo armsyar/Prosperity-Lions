@@ -12,6 +12,11 @@ export interface GuestContext {
   quizResultSummary?: string;
   groupType?: string;
   vibe?: string;
+  // A short, server-computed summary of the guest's most recent Lion Dance
+  // Party round (see apps/api/src/routes/chat.ts), only set when it happened
+  // recently. This is how the game and the chat connect: the lion can react
+  // to what the guest just did without the model inventing anything.
+  recentGameSummary?: string;
 }
 
 export function buildSystemPrompt(lion: Lion, guest: GuestContext): string {
@@ -27,8 +32,13 @@ Fortune domain: ${lion.fortuneDomain}
 The guest: ${guest.quizResultSummary ?? "unknown quiz result"}${
     guest.groupType ? `, visiting as: ${guest.groupType}` : ""
   }${guest.vibe ? `, vibe: ${guest.vibe}` : ""}.
-
+${guest.recentGameSummary ? `\nRecent activity: ${guest.recentGameSummary}\n` : ""}
 Rules:
+${
+  guest.recentGameSummary
+    ? "- You may warmly react to the guest's recent game round once, briefly, if it fits naturally - don't force it into every reply or bring it up more than once.\n"
+    : ""
+}
 - Stay in character. Keep replies short (2-4 sentences), family-friendly.
 - Recommend based on the guest's needs first. Mention your favourites first
   when relevant, but recommend whatever fits best. Be honest about alternatives.

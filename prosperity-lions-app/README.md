@@ -40,8 +40,8 @@ docs/       The 5 planning documents (source of truth for content/behaviour)
 ```
 
 This mirrors the architecture in `docs/technical-build-plan.md` Section 3.
-The game (Phaser/PixiJS, per `docs/game-concept.md`) is not scaffolded yet —
-it's planned to live inside `apps/web` once art/audio production starts.
+The game MVP lives at `apps/web/src/app/game/page.tsx` (plain React + the Web
+Audio API, not Phaser/PixiJS yet — see "Status" below for what that means).
 
 ## Status: what actually works right now
 
@@ -60,10 +60,36 @@ it's planned to live inside `apps/web` once art/audio production starts.
   and 8 quiz scene illustrations (`apps/web/public/scenes/`), all original
   SVG, drawn as stand-ins until real illustrations are ready. Swap by
   replacing the same filenames; nothing else needs to change.
+- ✅ **Lion Dance Party rhythm game MVP** — a real, playable game at `/game`
+  (`apps/web/src/app/game/page.tsx`): 3 songs, easy/normal/hard difficulty,
+  falling-note track, synthesized drum/cymbal/gong percussion (no audio files
+  yet, see `apps/web/src/lib/percussion.ts`), a Prosperity Meter and all 5
+  lion powers/passives from `docs/game-concept.md` Section 4, and a results
+  screen. Scores post to `POST /api/game/score`
+  (`apps/api/src/routes/game.ts`), which computes stars/coins **server-side**
+  from submitted accuracy — the client can't award itself a score. Known MVP
+  gaps, not hidden: on-screen tap/swipe/hold buttons stand in for real
+  gesture input, hold notes judge on press timing only, beatmaps are
+  pattern-generated rather than hand-charted (`apps/web/src/lib/beatmap.ts`),
+  there's one stage/look (no venue-unlock stages yet), and there's no latency
+  calibration screen.
+- ✅ **Quiz, chat and game are connected through one guest record**: the quiz
+  creates a `guestId` (stored in `localStorage` and server-side in
+  `apps/api/src/data/store.ts`) that both the chat and the game read, so
+  you're always chatting with and playing as your matched lion. Chat actions
+  and game rounds feed the **same Lucky Points balance**
+  (`GET /api/points/:guestId`), shown live in the chat header and on the
+  game's song-select screen. If you played a round in the last 30 minutes,
+  the lion knows about it in chat and can react to it once
+  (`recentGameSummary` in `apps/api/src/routes/chat.ts`, wired into
+  `packages/shared/src/systemPrompt.ts`) — it won't invent a score, only
+  reference what the server actually recorded. Fixed in the same pass: the
+  chat frontend wasn't sending prior turns back to the API, so every message
+  started with no memory of the conversation so far; it now sends (and the
+  API now correctly returns) the last ~20 turns.
 - ❌ No database — guest state resets on server restart
   (`apps/api/src/data/store.ts` is explicitly a placeholder)
 - ❌ No admin panel to edit promos
-- ❌ No lion-dance game
 - ❌ No QR check-in flow
 - ❌ Safety/distress copy is a placeholder — **do not launch without a real,
   legally-reviewed support message** (see `packages/shared/src/systemPrompt.ts`)

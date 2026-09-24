@@ -8,6 +8,7 @@ import { fortuneRouter } from "./routes/fortune.js";
 import { hongbaoRouter } from "./routes/hongbao.js";
 import { pointsRouter } from "./routes/points.js";
 import { chatRouter } from "./routes/chat.js";
+import { gameRouter } from "./routes/game.js";
 
 const app = express();
 app.use(cors());
@@ -22,6 +23,7 @@ app.use("/api/fortune", fortuneRouter);
 app.use("/api/hongbao", hongbaoRouter);
 app.use("/api/points", pointsRouter);
 app.use("/api/chat", chatRouter);
+app.use("/api/game", gameRouter);
 
 const port = process.env.PORT ?? 4000;
 app.listen(port, () => {

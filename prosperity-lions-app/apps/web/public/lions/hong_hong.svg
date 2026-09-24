@@ -1,74 +1,101 @@
-<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hong Hong, the Bold Lion">
+<svg viewBox="0 0 400 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hong Hong, the Bold Lion">
   <defs>
-    <radialGradient id="hh-bg" cx="50%" cy="42%" r="65%">
+    <radialGradient id="hh-bg" cx="50%" cy="40%" r="68%">
       <stop offset="0%" stop-color="#FFE7DA"/>
       <stop offset="100%" stop-color="#FFD2BE"/>
     </radialGradient>
   </defs>
-  <circle cx="200" cy="200" r="196" fill="url(#hh-bg)"/>
+  <circle cx="200" cy="210" r="206" fill="url(#hh-bg)"/>
 
-  <!-- collar / ruff -->
+  <!-- chin beard: layered fluffy fur -->
   <g fill="#B5241D">
-    <circle cx="120" cy="330" r="38"/>
-    <circle cx="165" cy="352" r="38"/>
-    <circle cx="210" cy="360" r="38"/>
-    <circle cx="255" cy="352" r="38"/>
-    <circle cx="300" cy="330" r="38"/>
+    <circle cx="112" cy="340" r="34"/>
+    <circle cx="152" cy="366" r="36"/>
+    <circle cx="200" cy="376" r="38"/>
+    <circle cx="248" cy="366" r="36"/>
+    <circle cx="288" cy="340" r="34"/>
   </g>
   <g fill="#FFC64A">
-    <circle cx="120" cy="330" r="16"/>
-    <circle cx="165" cy="352" r="16"/>
-    <circle cx="210" cy="360" r="16"/>
-    <circle cx="255" cy="352" r="16"/>
-    <circle cx="300" cy="330" r="16"/>
+    <circle cx="120" cy="336" r="15"/>
+    <circle cx="160" cy="358" r="15"/>
+    <circle cx="200" cy="366" r="15"/>
+    <circle cx="240" cy="358" r="15"/>
+    <circle cx="280" cy="336" r="15"/>
   </g>
 
-  <!-- mane puffs -->
+  <!-- outer mane: two layered rings of fur puffs for volume -->
+  <g fill="#8C1B15">
+    <circle cx="58" cy="220" r="46"/>
+    <circle cx="342" cy="220" r="46"/>
+    <circle cx="76" cy="130" r="42"/>
+    <circle cx="324" cy="130" r="42"/>
+    <circle cx="130" cy="66" r="40"/>
+    <circle cx="270" cy="66" r="40"/>
+  </g>
   <g fill="#B5241D">
-    <circle cx="78" cy="205" r="58"/>
-    <circle cx="322" cy="205" r="58"/>
-    <circle cx="112" cy="110" r="50"/>
-    <circle cx="288" cy="110" r="50"/>
-    <circle cx="200" cy="82" r="52"/>
+    <circle cx="80" cy="210" r="56"/>
+    <circle cx="320" cy="210" r="56"/>
+    <circle cx="108" cy="112" r="50"/>
+    <circle cx="292" cy="112" r="50"/>
+    <circle cx="200" cy="80" r="54"/>
   </g>
 
   <!-- ears -->
-  <circle cx="118" cy="140" r="34" fill="#E63B2E"/>
-  <circle cx="282" cy="140" r="34" fill="#E63B2E"/>
-  <circle cx="118" cy="140" r="16" fill="#FFC64A"/>
-  <circle cx="282" cy="140" r="16" fill="#FFC64A"/>
+  <circle cx="118" cy="150" r="32" fill="#E63B2E"/>
+  <circle cx="282" cy="150" r="32" fill="#E63B2E"/>
+  <circle cx="118" cy="150" r="15" fill="#FFC64A"/>
+  <circle cx="282" cy="150" r="15" fill="#FFC64A"/>
 
   <!-- face -->
-  <circle cx="200" cy="210" r="128" fill="#E63B2E"/>
+  <circle cx="200" cy="220" r="126" fill="#E63B2E"/>
 
-  <!-- forehead horn -->
-  <path d="M180 100 q20 -34 40 0 q-6 26 -20 30 q-14 -4 -20 -30 z" fill="#FFC64A"/>
-  <circle cx="200" cy="98" r="7" fill="#FF7A3D"/>
+  <!-- gold ornate headpiece band across the forehead -->
+  <path d="M96 158 Q200 116 304 158 Q300 182 274 184 Q200 156 126 184 Q100 182 96 158 Z" fill="#FFC64A" stroke="#E8A628" stroke-width="3"/>
+  <circle cx="140" cy="158" r="5" fill="#E8A628"/>
+  <circle cx="170" cy="146" r="5" fill="#E8A628"/>
+  <circle cx="230" cy="146" r="5" fill="#E8A628"/>
+  <circle cx="260" cy="158" r="5" fill="#E8A628"/>
+
+  <!-- red pompom on top with gold stalk -->
+  <rect x="192" y="70" width="16" height="34" fill="#E8A628"/>
+  <circle cx="200" cy="66" r="24" fill="#E63B2E"/>
+  <circle cx="200" cy="66" r="24" fill="none" stroke="#B5241D" stroke-width="4"/>
+  <circle cx="192" cy="58" r="5" fill="#FF8F7A"/>
+
+  <!-- forehead mirror -->
+  <circle cx="200" cy="186" r="20" fill="#FFF7E0" stroke="#E8A628" stroke-width="4"/>
+  <circle cx="200" cy="186" r="12" fill="#FFFFFF"/>
+  <path d="M192 178 L208 194 M208 178 L192 194" stroke="#E8CFA0" stroke-width="2"/>
+
+  <!-- white eye patches (traditional lion-dance eye markings) -->
+  <ellipse cx="156" cy="228" rx="40" ry="34" fill="#FFF4E8"/>
+  <ellipse cx="244" cy="228" rx="40" ry="34" fill="#FFF4E8"/>
 
   <!-- brows: determined, angled down = bold -->
-  <path d="M126 176 q30 -22 62 -6" stroke="#5C1410" stroke-width="10" fill="none" stroke-linecap="round"/>
-  <path d="M274 176 q-30 -22 -62 -6" stroke="#5C1410" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M122 202 q34 -24 68 -6" stroke="#5C1410" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M278 202 q-34 -24 -68 -6" stroke="#5C1410" stroke-width="11" fill="none" stroke-linecap="round"/>
 
   <!-- eyes -->
-  <ellipse cx="158" cy="206" rx="26" ry="30" fill="#FFFFFF"/>
-  <ellipse cx="242" cy="206" rx="26" ry="30" fill="#FFFFFF"/>
-  <circle cx="163" cy="212" r="14" fill="#3A2115"/>
-  <circle cx="237" cy="212" r="14" fill="#3A2115"/>
-  <circle cx="168" cy="204" r="4" fill="#FFFFFF"/>
-  <circle cx="242" cy="204" r="4" fill="#FFFFFF"/>
+  <ellipse cx="158" cy="230" rx="24" ry="27" fill="#FFFFFF"/>
+  <ellipse cx="242" cy="230" rx="24" ry="27" fill="#FFFFFF"/>
+  <circle cx="163" cy="236" r="13" fill="#3A2115"/>
+  <circle cx="237" cy="236" r="13" fill="#3A2115"/>
+  <circle cx="168" cy="228" r="4" fill="#FFFFFF"/>
+  <circle cx="242" cy="228" r="4" fill="#FFFFFF"/>
 
   <!-- cheeks -->
-  <circle cx="132" cy="248" r="16" fill="#FF7A3D" opacity="0.55"/>
-  <circle cx="268" cy="248" r="16" fill="#FF7A3D" opacity="0.55"/>
+  <circle cx="128" cy="268" r="15" fill="#FF7A3D" opacity="0.5"/>
+  <circle cx="272" cy="268" r="15" fill="#FF7A3D" opacity="0.5"/>
 
   <!-- nose -->
-  <ellipse cx="200" cy="238" rx="16" ry="11" fill="#3A2115"/>
+  <ellipse cx="200" cy="256" rx="18" ry="12" fill="#3A2115"/>
+  <ellipse cx="200" cy="253" rx="8" ry="4" fill="#5C1410"/>
 
   <!-- big bold open-mouth grin -->
-  <path d="M148 258 q52 46 104 0 q-8 40 -52 40 q-44 0 -52 -40 z" fill="#5C1410"/>
-  <path d="M162 266 q38 26 76 0 q-6 22 -38 22 q-32 0 -38 -22 z" fill="#FF8F7A"/>
-  <path d="M172 262 l10 14 M188 266 l6 16 M204 266 l-6 16 M220 262 l-10 14" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M144 274 q56 50 112 0 q-8 44 -56 44 q-48 0 -56 -44 z" fill="#5C1410"/>
+  <path d="M160 282 q40 30 80 0 q-6 24 -40 24 q-34 0 -40 -24 z" fill="#FF8F7A"/>
+  <path d="M172 278 l9 15 M188 282 l6 17 M204 282 l-6 17 M220 278 l-9 15" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
 
   <!-- flame accent -->
-  <path d="M300 150 q14 -20 4 -36 q18 8 16 30 q-2 16 -20 6z" fill="#FF7A3D"/>
+  <path d="M310 172 q15 -21 4 -38 q19 8 17 32 q-2 17 -21 6z" fill="#FF7A3D"/>
 </svg>

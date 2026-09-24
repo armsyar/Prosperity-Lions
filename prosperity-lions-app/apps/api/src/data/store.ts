@@ -4,10 +4,11 @@
 // testing. See docs/technical-build-plan.md Section 4 for the target schema.
 // Nothing here persists across server restarts.
 
-import type { Guest, PrizeDraw } from "@prosperity-lions/shared/types";
+import type { Guest, PrizeDraw, GameScore } from "@prosperity-lions/shared/types";
 
 export const guests = new Map<string, Guest>();
 export const prizeDraws: PrizeDraw[] = [];
+export const gameScores: GameScore[] = [];
 export const pointsLedger: Array<{
   guestId: string;
   action: string;

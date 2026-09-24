@@ -21,40 +21,84 @@
   <rect y="420" width="800" height="80" fill="#B5241D"/>
 
   <!-- lion body / cloth -->
-  <path d="M340 480 q60 -60 120 0 l0 -80 q-60 -30 -120 0 z" fill="#E63B2E"/>
-  <path d="M340 480 q60 -30 120 0" stroke="#FFC64A" stroke-width="6" fill="none"/>
+  <path d="M330 480 q70 -70 140 0 l0 -90 q-70 -34 -140 0 z" fill="#E63B2E"/>
+  <path d="M330 480 q70 -34 140 0" stroke="#FFC64A" stroke-width="6" fill="none"/>
 
-  <!-- big performing lion head, mid-leap pose -->
-  <g transform="translate(400 250)">
-    <!-- mane -->
+  <!-- big performing lion head, mid-leap pose, matching the character portrait style -->
+  <g transform="translate(400 245)">
+    <!-- chin beard -->
     <g fill="#B5241D">
-      <circle cx="-110" cy="10" r="58"/>
-      <circle cx="110" cy="10" r="58"/>
-      <circle cx="-70" cy="-90" r="50"/>
-      <circle cx="70" cy="-90" r="50"/>
-      <circle cx="0" cy="-118" r="55"/>
+      <circle cx="-70" cy="122" r="24"/>
+      <circle cx="-24" cy="140" r="26"/>
+      <circle cx="24" cy="140" r="26"/>
+      <circle cx="70" cy="122" r="24"/>
     </g>
+    <g fill="#FFC64A">
+      <circle cx="-64" cy="118" r="10"/>
+      <circle cx="-22" cy="132" r="10"/>
+      <circle cx="22" cy="132" r="10"/>
+      <circle cx="64" cy="118" r="10"/>
+    </g>
+
+    <!-- mane, two layers -->
+    <g fill="#8C1B15">
+      <circle cx="-140" cy="10" r="50"/>
+      <circle cx="140" cy="10" r="50"/>
+      <circle cx="-100" cy="-78" r="44"/>
+      <circle cx="100" cy="-78" r="44"/>
+    </g>
+    <g fill="#B5241D">
+      <circle cx="-118" cy="4" r="58"/>
+      <circle cx="118" cy="4" r="58"/>
+      <circle cx="-64" cy="-88" r="52"/>
+      <circle cx="64" cy="-88" r="52"/>
+      <circle cx="0" cy="-112" r="56"/>
+    </g>
+
     <!-- ears -->
-    <circle cx="-95" cy="-55" r="30" fill="#E63B2E"/>
-    <circle cx="95" cy="-55" r="30" fill="#E63B2E"/>
-    <circle cx="-95" cy="-55" r="14" fill="#FFC64A"/>
-    <circle cx="95" cy="-55" r="14" fill="#FFC64A"/>
+    <circle cx="-98" cy="-48" r="28" fill="#E63B2E"/>
+    <circle cx="98" cy="-48" r="28" fill="#E63B2E"/>
+    <circle cx="-98" cy="-48" r="13" fill="#FFC64A"/>
+    <circle cx="98" cy="-48" r="13" fill="#FFC64A"/>
+
     <!-- face -->
-    <circle cx="0" cy="10" r="140" fill="#E63B2E"/>
-    <!-- horn -->
-    <path d="M-22 -100 q22 -38 44 0 q-6 28 -22 32 q-16 -4 -22 -32z" fill="#FFC64A"/>
-    <circle cx="0" cy="-112" r="9" fill="#FF7A3D"/>
+    <circle cx="0" cy="14" r="132" fill="#E63B2E"/>
+
+    <!-- gold headpiece band -->
+    <path d="M-108 -52 Q0 -92 108 -52 Q104 -30 80 -28 Q0 -54 -80 -28 Q-104 -30 -108 -52 Z" fill="#FFC64A" stroke="#E8A628" stroke-width="3"/>
+    <circle cx="-64" cy="-52" r="5" fill="#E8A628"/>
+    <circle cx="-32" cy="-64" r="5" fill="#E8A628"/>
+    <circle cx="32" cy="-64" r="5" fill="#E8A628"/>
+    <circle cx="64" cy="-52" r="5" fill="#E8A628"/>
+
+    <!-- pompom -->
+    <rect x="-8" y="-140" width="16" height="32" fill="#E8A628"/>
+    <circle cx="0" cy="-144" r="22" fill="#E63B2E" stroke="#B5241D" stroke-width="4"/>
+
+    <!-- forehead mirror -->
+    <circle cx="0" cy="-22" r="19" fill="#FFF7E0" stroke="#E8A628" stroke-width="4"/>
+    <circle cx="0" cy="-22" r="11" fill="#FFFFFF"/>
+
+    <!-- white eye patches -->
+    <ellipse cx="-42" cy="22" rx="38" ry="32" fill="#FFF4E8"/>
+    <ellipse cx="42" cy="22" rx="38" ry="32" fill="#FFF4E8"/>
+
     <!-- brows -->
-    <path d="M-90 -34 q34 -26 70 -6" stroke="#5C1410" stroke-width="11" fill="none" stroke-linecap="round"/>
-    <path d="M90 -34 q-34 -26 -70 -6" stroke="#5C1410" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <path d="M-92 -6 q34 -24 68 -6" stroke="#5C1410" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <path d="M92 -6 q-34 -24 -68 -6" stroke="#5C1410" stroke-width="11" fill="none" stroke-linecap="round"/>
+
     <!-- big round eyes -->
-    <circle cx="-55" cy="6" r="32" fill="#FFFFFF"/>
-    <circle cx="55" cy="6" r="32" fill="#FFFFFF"/>
-    <circle cx="-48" cy="12" r="16" fill="#3A2115"/>
-    <circle cx="62" cy="12" r="16" fill="#3A2115"/>
+    <circle cx="-42" cy="24" r="30" fill="#FFFFFF"/>
+    <circle cx="42" cy="24" r="30" fill="#FFFFFF"/>
+    <circle cx="-36" cy="30" r="15" fill="#3A2115"/>
+    <circle cx="48" cy="30" r="15" fill="#3A2115"/>
+
+    <!-- nose -->
+    <ellipse cx="0" cy="50" rx="17" ry="11" fill="#3A2115"/>
+
     <!-- huge open mouth -->
-    <path d="M-90 60 q90 90 180 0 q-14 76 -90 76 q-76 0 -90 -76z" fill="#5C1410"/>
-    <path d="M-64 76 q64 56 128 0 q-10 40 -64 40 q-54 0 -64 -40z" fill="#FF8F7A"/>
+    <path d="M-88 78 q88 84 176 0 q-14 72 -88 72 q-74 0 -88 -72z" fill="#5C1410"/>
+    <path d="M-62 92 q62 52 124 0 q-10 38 -62 38 q-52 0 -62 -38z" fill="#FF8F7A"/>
   </g>
 
   <!-- drum -->

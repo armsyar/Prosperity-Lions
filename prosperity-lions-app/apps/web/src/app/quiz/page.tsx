@@ -76,9 +76,14 @@ export default function QuizPage() {
             {result.lion?.name} — {result.lion?.title}
           </h1>
           <p className="storybook-prompt">{RESULT_BLURBS[result.matchedLionId]}</p>
-          <a href="/chat" className="btn-primary">
-            Chat with {result.lion?.name}
-          </a>
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            <a href="/chat" className="btn-primary">
+              Chat with {result.lion?.name}
+            </a>
+            <a href="/game" className="btn-secondary">
+              Play Lion Dance Party
+            </a>
+          </div>
         </div>
       </main>
     );

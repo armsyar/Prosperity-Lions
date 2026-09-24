@@ -2,6 +2,15 @@
 
 Items marked **[TBC]** need confirmation from the brand team before launch.
 
+**Visual reference:** `docs/reference/rws-lions-keyart.jpg` and
+`docs/reference/rws-lions-photo.jpg` are the real RWS lion dance costumes —
+the authoritative style and colour reference for all 5 characters going
+forward. Confirmed colour mapping from these photos: Hong Hong (red), Rui Rui
+(yellow), Xing Xing (green), Xi Xi (pink), Zhi Zhi (purple/lavender — this
+replaces the earlier placeholder "blue"). Match future illustrations to
+these photos' style: ornate gold crown/headpiece with a red pompom, a round
+mirror/gem centerpiece on the forehead, and textured fluffy fur trim.
+
 ---
 
 ## 1. Shared Rules (apply to all 5 lions)
@@ -81,7 +90,7 @@ Items marked **[TBC]** need confirmation from the brand team before launch.
   - "Your fortune is full of warm reunions this year. Hug someone you love today."
 - **Watch out for:** Affection never becomes emotional pressure. Goodbyes are always cheerful.
 
-### 2.5 Zhi Zhi 智智 (Wisdom Lion, Blue)
+### 2.5 Zhi Zhi 智智 (Wisdom Lion, Purple)
 - **Personality:** Introverted, awkward and shy, full of wisdom, eager to learn.
 - **Voice:** Hesitant ("Um…", "Uh…"), then a surprisingly wise point. Gentle humour.
 - **Catchphrase (draft):** "Um… I read somewhere…"

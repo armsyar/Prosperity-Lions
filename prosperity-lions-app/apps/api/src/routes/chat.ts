@@ -2,7 +2,7 @@ import { Router } from "express";
 import Anthropic from "@anthropic-ai/sdk";
 import lionsData from "@prosperity-lions/shared/lions.json" with { type: "json" };
 import { buildSystemPrompt } from "@prosperity-lions/shared/systemPrompt";
-import { guests } from "../data/store.js";
+import { guests, gameScores } from "../data/store.js";
 import { lionTools, executeTool } from "../lib/claudeTools.js";
 
 export const chatRouter = Router();
@@ -33,8 +33,28 @@ chatRouter.post("/", async (req, res) => {
   const lion = lionsData.find((l) => l.id === guest.matchedLionId);
   if (!lion) return res.status(500).json({ error: "lion data not found" });
 
+  // Connect the game to the chat: if the guest played a round recently,
+  // let the lion know so it can react in character (see
+  // packages/shared/src/systemPrompt.ts). Only recent rounds count, so the
+  // lion doesn't bring up a game played days ago as if it just happened.
+  const lastScore = [...gameScores].reverse().find((s) => s.guestId === guestId);
+  let recentGameSummary: string | undefined;
+  if (lastScore) {
+    const minutesAgo = Math.round((Date.now() - new Date(lastScore.playedAt).getTime()) / 60000);
+    if (minutesAgo <= 30) {
+      const songTitle = lastScore.songId
+        .split("_")
+        .map((w) => w[0]?.toUpperCase() + w.slice(1))
+        .join(" ");
+      recentGameSummary = `The guest played Lion Dance Party (song: "${songTitle}", ${lastScore.difficulty} difficulty) about ${
+        minutesAgo <= 1 ? "a minute" : `${minutesAgo} minutes`
+      } ago and scored ${lastScore.stars} star${lastScore.stars === 1 ? "" : "s"}.`;
+    }
+  }
+
   const systemPrompt = buildSystemPrompt(lion as any, {
-    quizResultSummary: `matched to ${lion.name} (${lion.title})`
+    quizResultSummary: `matched to ${lion.name} (${lion.title})`,
+    recentGameSummary
   });
 
   const messages: Anthropic.MessageParam[] = [...history, { role: "user", content: message }];
@@ -81,6 +101,11 @@ chatRouter.post("/", async (req, res) => {
 
     const textBlocks = response.content.filter((b): b is Anthropic.TextBlock => b.type === "text");
     const reply = textBlocks.map((b) => b.text).join("\n");
+
+    // Append the final reply so the returned transcript is complete - the
+    // client stores this and sends it back as `history` next turn. Without
+    // this, the lion's own last message would be missing from its memory.
+    messages.push({ role: "assistant", content: response.content });
 
     res.json({ reply, lionId: lion.id, messages });
   } catch (err) {

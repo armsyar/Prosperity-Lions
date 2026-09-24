@@ -1,75 +1,98 @@
-<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Xing Xing, the Growth Lion">
+<svg viewBox="0 0 400 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Xing Xing, the Growth Lion">
   <defs>
-    <radialGradient id="xx-bg" cx="50%" cy="42%" r="65%">
+    <radialGradient id="xx-bg" cx="50%" cy="40%" r="68%">
       <stop offset="0%" stop-color="#E4F7E9"/>
       <stop offset="100%" stop-color="#C6EDD1"/>
     </radialGradient>
   </defs>
-  <circle cx="200" cy="200" r="196" fill="url(#xx-bg)"/>
+  <circle cx="200" cy="210" r="206" fill="url(#xx-bg)"/>
 
   <g fill="#2E7D4F">
-    <circle cx="120" cy="330" r="38"/>
-    <circle cx="165" cy="352" r="38"/>
-    <circle cx="210" cy="360" r="38"/>
-    <circle cx="255" cy="352" r="38"/>
-    <circle cx="300" cy="330" r="38"/>
+    <circle cx="112" cy="340" r="34"/>
+    <circle cx="152" cy="366" r="36"/>
+    <circle cx="200" cy="376" r="38"/>
+    <circle cx="248" cy="366" r="36"/>
+    <circle cx="288" cy="340" r="34"/>
   </g>
   <g fill="#FFC64A">
-    <circle cx="120" cy="330" r="16"/>
-    <circle cx="165" cy="352" r="16"/>
-    <circle cx="210" cy="360" r="16"/>
-    <circle cx="255" cy="352" r="16"/>
-    <circle cx="300" cy="330" r="16"/>
+    <circle cx="120" cy="336" r="15"/>
+    <circle cx="160" cy="358" r="15"/>
+    <circle cx="200" cy="366" r="15"/>
+    <circle cx="240" cy="358" r="15"/>
+    <circle cx="280" cy="336" r="15"/>
   </g>
 
+  <g fill="#1F5C38">
+    <circle cx="58" cy="220" r="46"/>
+    <circle cx="342" cy="220" r="46"/>
+    <circle cx="76" cy="130" r="42"/>
+    <circle cx="324" cy="130" r="42"/>
+    <circle cx="130" cy="66" r="40"/>
+    <circle cx="270" cy="66" r="40"/>
+  </g>
   <g fill="#2E7D4F">
-    <circle cx="78" cy="205" r="58"/>
-    <circle cx="322" cy="205" r="58"/>
-    <circle cx="112" cy="110" r="50"/>
-    <circle cx="288" cy="110" r="50"/>
-    <circle cx="200" cy="82" r="52"/>
+    <circle cx="80" cy="210" r="56"/>
+    <circle cx="320" cy="210" r="56"/>
+    <circle cx="108" cy="112" r="50"/>
+    <circle cx="292" cy="112" r="50"/>
+    <circle cx="200" cy="80" r="54"/>
   </g>
 
   <!-- one ear slightly askew for clumsy charm -->
-  <circle cx="120" cy="144" r="34" fill="#4CAF6D"/>
-  <circle cx="286" cy="134" r="34" fill="#4CAF6D"/>
-  <circle cx="120" cy="144" r="16" fill="#FFC64A"/>
-  <circle cx="286" cy="134" r="16" fill="#FFC64A"/>
+  <circle cx="120" cy="154" r="32" fill="#4CAF6D"/>
+  <circle cx="284" cy="144" r="32" fill="#4CAF6D"/>
+  <circle cx="120" cy="154" r="15" fill="#FFC64A"/>
+  <circle cx="284" cy="144" r="15" fill="#FFC64A"/>
 
-  <circle cx="200" cy="210" r="128" fill="#4CAF6D"/>
+  <circle cx="200" cy="220" r="126" fill="#4CAF6D"/>
 
-  <path d="M180 100 q20 -34 40 0 q-6 26 -20 30 q-14 -4 -20 -30 z" fill="#FFC64A"/>
-  <circle cx="200" cy="98" r="7" fill="#FFF3C4"/>
+  <path d="M96 158 Q200 116 304 158 Q300 182 274 184 Q200 156 126 184 Q100 182 96 158 Z" fill="#FFC64A" stroke="#E8A628" stroke-width="3"/>
+  <circle cx="140" cy="158" r="5" fill="#E8A628"/>
+  <circle cx="170" cy="146" r="5" fill="#E8A628"/>
+  <circle cx="230" cy="146" r="5" fill="#E8A628"/>
+  <circle cx="260" cy="158" r="5" fill="#E8A628"/>
+
+  <rect x="192" y="70" width="16" height="34" fill="#E8A628"/>
+  <circle cx="200" cy="66" r="24" fill="#E63B2E"/>
+  <circle cx="200" cy="66" r="24" fill="none" stroke="#B5241D" stroke-width="4"/>
+  <circle cx="192" cy="58" r="5" fill="#FF8F7A"/>
+
+  <circle cx="200" cy="186" r="20" fill="#FFF7E0" stroke="#E8A628" stroke-width="4"/>
+  <circle cx="200" cy="186" r="12" fill="#FFFFFF"/>
+  <path d="M192 178 L208 194 M208 178 L192 194" stroke="#E8CFA0" stroke-width="2"/>
+
+  <ellipse cx="156" cy="230" rx="42" ry="36" fill="#F2FBF4"/>
+  <ellipse cx="244" cy="230" rx="42" ry="36" fill="#F2FBF4"/>
 
   <!-- brows: raised, surprised/curious -->
-  <path d="M124 172 q30 -20 62 -2" stroke="#194E30" stroke-width="10" fill="none" stroke-linecap="round"/>
-  <path d="M276 172 q-30 -20 -62 -2" stroke="#194E30" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M120 202 q36 -24 72 -2" stroke="#194E30" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M280 202 q-36 -24 -72 -2" stroke="#194E30" stroke-width="11" fill="none" stroke-linecap="round"/>
 
   <!-- eyes: big, wide, one looking sideways (curious) -->
-  <ellipse cx="158" cy="210" rx="28" ry="32" fill="#FFFFFF"/>
-  <ellipse cx="242" cy="210" rx="30" ry="34" fill="#FFFFFF"/>
-  <circle cx="168" cy="216" r="15" fill="#194E30"/>
-  <circle cx="256" cy="216" r="16" fill="#194E30"/>
-  <circle cx="173" cy="208" r="4" fill="#FFFFFF"/>
-  <circle cx="261" cy="208" r="4" fill="#FFFFFF"/>
+  <ellipse cx="156" cy="232" rx="26" ry="30" fill="#FFFFFF"/>
+  <ellipse cx="244" cy="232" rx="28" ry="32" fill="#FFFFFF"/>
+  <circle cx="166" cy="238" r="14" fill="#194E30"/>
+  <circle cx="258" cy="238" r="15" fill="#194E30"/>
+  <circle cx="171" cy="230" r="4" fill="#FFFFFF"/>
+  <circle cx="263" cy="230" r="4" fill="#FFFFFF"/>
 
-  <circle cx="132" cy="250" r="16" fill="#FF9E7A" opacity="0.5"/>
-  <circle cx="268" cy="250" r="16" fill="#FF9E7A" opacity="0.5"/>
+  <circle cx="128" cy="270" r="15" fill="#FF9E7A" opacity="0.5"/>
+  <circle cx="272" cy="270" r="15" fill="#FF9E7A" opacity="0.5"/>
 
-  <ellipse cx="200" cy="240" rx="16" ry="11" fill="#194E30"/>
+  <ellipse cx="200" cy="258" rx="17" ry="11" fill="#194E30"/>
 
   <!-- small curious "oh!" open mouth -->
-  <ellipse cx="200" cy="278" rx="20" ry="22" fill="#194E30"/>
-  <ellipse cx="200" cy="276" rx="12" ry="14" fill="#FF8F7A"/>
+  <ellipse cx="200" cy="296" rx="21" ry="23" fill="#194E30"/>
+  <ellipse cx="200" cy="294" rx="13" ry="15" fill="#FF8F7A"/>
 
   <!-- clumsy band-aid -->
-  <g transform="translate(258 258) rotate(20)">
+  <g transform="translate(262 274) rotate(20)">
     <rect x="-16" y="-7" width="32" height="14" rx="6" fill="#FFE3D0" stroke="#E8B79A" stroke-width="2"/>
     <circle cx="-4" cy="0" r="1.6" fill="#C98A63"/>
     <circle cx="4" cy="0" r="1.6" fill="#C98A63"/>
   </g>
 
   <!-- curiosity spark / magnifying glass -->
-  <circle cx="92" cy="300" r="16" fill="none" stroke="#194E30" stroke-width="6"/>
-  <line x1="103" y1="311" x2="118" y2="326" stroke="#194E30" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="90" cy="318" r="16" fill="none" stroke="#194E30" stroke-width="6"/>
+  <line x1="101" y1="329" x2="116" y2="344" stroke="#194E30" stroke-width="7" stroke-linecap="round"/>
 </svg>

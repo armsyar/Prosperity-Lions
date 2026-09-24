@@ -151,7 +151,7 @@ Each result: lion illustration, title, short first-person blurb, "You're X% [Lio
 **Xi Xi (Joy Lion, Pink)**
 > "You're the warm heart of every gathering. Gentle and caring, you make everyone feel loved. Come here, I've got a hug for you!"
 
-**Zhi Zhi (Wisdom Lion, Blue)**
+**Zhi Zhi (Wisdom Lion, Purple)**
 > "You're thoughtful, observant and wiser than you let on. Um… I think we're going to get along well."
 
 **After the result:** the lion says hello in its own voice, then offers the quick-reply buttons: *What's on today? · Tell my fortune · Where should I eat? · Teach me a CNY tradition · Just chat.*

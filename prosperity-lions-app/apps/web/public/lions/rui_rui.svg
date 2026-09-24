@@ -1,65 +1,89 @@
-<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rui Rui, the Blessing Lion">
+<svg viewBox="0 0 400 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rui Rui, the Blessing Lion">
   <defs>
-    <radialGradient id="rr-bg" cx="50%" cy="42%" r="65%">
+    <radialGradient id="rr-bg" cx="50%" cy="40%" r="68%">
       <stop offset="0%" stop-color="#FFF6D9"/>
       <stop offset="100%" stop-color="#FFECAD"/>
     </radialGradient>
   </defs>
-  <circle cx="200" cy="200" r="196" fill="url(#rr-bg)"/>
+  <circle cx="200" cy="210" r="206" fill="url(#rr-bg)"/>
 
   <g fill="#E8A628">
-    <circle cx="120" cy="330" r="38"/>
-    <circle cx="165" cy="352" r="38"/>
-    <circle cx="210" cy="360" r="38"/>
-    <circle cx="255" cy="352" r="38"/>
-    <circle cx="300" cy="330" r="38"/>
+    <circle cx="112" cy="340" r="34"/>
+    <circle cx="152" cy="366" r="36"/>
+    <circle cx="200" cy="376" r="38"/>
+    <circle cx="248" cy="366" r="36"/>
+    <circle cx="288" cy="340" r="34"/>
   </g>
   <g fill="#E63B2E">
-    <circle cx="120" cy="330" r="16"/>
-    <circle cx="165" cy="352" r="16"/>
-    <circle cx="210" cy="360" r="16"/>
-    <circle cx="255" cy="352" r="16"/>
-    <circle cx="300" cy="330" r="16"/>
+    <circle cx="120" cy="336" r="15"/>
+    <circle cx="160" cy="358" r="15"/>
+    <circle cx="200" cy="366" r="15"/>
+    <circle cx="240" cy="358" r="15"/>
+    <circle cx="280" cy="336" r="15"/>
   </g>
 
+  <g fill="#C97F14">
+    <circle cx="58" cy="220" r="46"/>
+    <circle cx="342" cy="220" r="46"/>
+    <circle cx="76" cy="130" r="42"/>
+    <circle cx="324" cy="130" r="42"/>
+    <circle cx="130" cy="66" r="40"/>
+    <circle cx="270" cy="66" r="40"/>
+  </g>
   <g fill="#E8A628">
-    <circle cx="78" cy="205" r="58"/>
-    <circle cx="322" cy="205" r="58"/>
-    <circle cx="112" cy="110" r="50"/>
-    <circle cx="288" cy="110" r="50"/>
-    <circle cx="200" cy="82" r="52"/>
+    <circle cx="80" cy="210" r="56"/>
+    <circle cx="320" cy="210" r="56"/>
+    <circle cx="108" cy="112" r="50"/>
+    <circle cx="292" cy="112" r="50"/>
+    <circle cx="200" cy="80" r="54"/>
   </g>
 
-  <circle cx="118" cy="140" r="34" fill="#FFC93C"/>
-  <circle cx="282" cy="140" r="34" fill="#FFC93C"/>
-  <circle cx="118" cy="140" r="16" fill="#E63B2E"/>
-  <circle cx="282" cy="140" r="16" fill="#E63B2E"/>
+  <circle cx="118" cy="150" r="32" fill="#FFC93C"/>
+  <circle cx="282" cy="150" r="32" fill="#FFC93C"/>
+  <circle cx="118" cy="150" r="15" fill="#E63B2E"/>
+  <circle cx="282" cy="150" r="15" fill="#E63B2E"/>
 
-  <circle cx="200" cy="210" r="128" fill="#FFC93C"/>
+  <circle cx="200" cy="220" r="126" fill="#FFC93C"/>
 
-  <path d="M180 100 q20 -34 40 0 q-6 26 -20 30 q-14 -4 -20 -30 z" fill="#E63B2E"/>
-  <circle cx="200" cy="98" r="7" fill="#FFF3C4"/>
+  <path d="M96 158 Q200 116 304 158 Q300 182 274 184 Q200 156 126 184 Q100 182 96 158 Z" fill="#E63B2E" stroke="#B5241D" stroke-width="3"/>
+  <circle cx="140" cy="158" r="5" fill="#FFC64A"/>
+  <circle cx="170" cy="146" r="5" fill="#FFC64A"/>
+  <circle cx="230" cy="146" r="5" fill="#FFC64A"/>
+  <circle cx="260" cy="158" r="5" fill="#FFC64A"/>
+
+  <rect x="192" y="70" width="16" height="34" fill="#B5241D"/>
+  <circle cx="200" cy="66" r="24" fill="#E63B2E"/>
+  <circle cx="200" cy="66" r="24" fill="none" stroke="#B5241D" stroke-width="4"/>
+  <circle cx="192" cy="58" r="5" fill="#FF8F7A"/>
+
+  <circle cx="200" cy="186" r="20" fill="#FFF7E0" stroke="#B5241D" stroke-width="4"/>
+  <circle cx="200" cy="186" r="12" fill="#FFFFFF"/>
+  <path d="M192 178 L208 194 M208 178 L192 194" stroke="#E8CFA0" stroke-width="2"/>
+
+  <ellipse cx="156" cy="228" rx="40" ry="34" fill="#FFF9E8"/>
+  <ellipse cx="244" cy="228" rx="40" ry="34" fill="#FFF9E8"/>
 
   <!-- brows: cheeky, one raised -->
-  <path d="M126 182 q30 -10 62 2" stroke="#6E4A12" stroke-width="10" fill="none" stroke-linecap="round"/>
-  <path d="M274 168 q-30 -18 -62 -2" stroke="#6E4A12" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M124 208 q34 -12 68 2" stroke="#6E4A12" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M276 190 q-34 -20 -68 -2" stroke="#6E4A12" stroke-width="11" fill="none" stroke-linecap="round"/>
 
   <!-- eyes: one winking -->
-  <path d="M138 208 q20 -18 40 0" stroke="#3A2115" stroke-width="10" fill="none" stroke-linecap="round"/>
-  <ellipse cx="242" cy="206" rx="26" ry="30" fill="#FFFFFF"/>
-  <circle cx="248" cy="212" r="14" fill="#3A2115"/>
-  <circle cx="253" cy="204" r="4" fill="#FFFFFF"/>
+  <path d="M134 232 q22 -20 44 0" stroke="#3A2115" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <ellipse cx="244" cy="230" rx="24" ry="27" fill="#FFFFFF"/>
+  <circle cx="250" cy="236" r="13" fill="#3A2115"/>
+  <circle cx="255" cy="228" r="4" fill="#FFFFFF"/>
 
-  <circle cx="132" cy="248" r="17" fill="#E63B2E" opacity="0.5"/>
-  <circle cx="268" cy="248" r="17" fill="#E63B2E" opacity="0.5"/>
+  <circle cx="128" cy="268" r="16" fill="#E63B2E" opacity="0.45"/>
+  <circle cx="272" cy="268" r="16" fill="#E63B2E" opacity="0.45"/>
 
-  <ellipse cx="200" cy="238" rx="16" ry="11" fill="#6E4A12"/>
+  <ellipse cx="200" cy="256" rx="18" ry="12" fill="#6E4A12"/>
+  <ellipse cx="200" cy="253" rx="8" ry="4" fill="#8A5C1A"/>
 
   <!-- cheeky open grin, slightly asymmetric -->
-  <path d="M150 258 q50 42 100 -4 q-4 42 -50 42 q-46 0 -50 -38 z" fill="#6E4A12"/>
-  <path d="M164 264 q36 24 74 -2 q-6 20 -36 20 q-30 0 -38 -18 z" fill="#FF8F7A"/>
+  <path d="M150 274 q52 46 108 -4 q-4 46 -54 46 q-50 0 -54 -42 z" fill="#6E4A12"/>
+  <path d="M164 282 q38 26 78 -2 q-6 22 -38 22 q-32 0 -40 -20 z" fill="#FF8F7A"/>
 
   <!-- lucky ingot accent -->
-  <path d="M296 300 q22 -6 26 12 q2 14 -18 16 q-18 2 -22 -10 q-2 -12 14 -18z" fill="#FFD766" stroke="#E8A628" stroke-width="3"/>
-  <path d="M300 308 q10 -4 12 6" stroke="#E8A628" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M298 316 q23 -6 27 13 q2 15 -19 17 q-19 2 -23 -11 q-2 -13 15 -19z" fill="#FFD766" stroke="#E8A628" stroke-width="3"/>
+  <path d="M302 324 q10 -4 12 6" stroke="#E8A628" stroke-width="3" fill="none" stroke-linecap="round"/>
 </svg>
